@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ĐỒ ÁN ANDROID - IT CAMP</string>
+    <string name="taikhoan">Tài Khoản</string>
+    <string name="password">Mật khẩu</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="dangky">Đăng Ký</string>
+
+    <string name="hello">Đồ án android!</string>
+    <string name="title_activity_dangky">dangky</string>
+    <string name="action_settings">Settings</string>
+    <string name="capnhat">Cập Nhật</string>
+</resources>
