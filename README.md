@@ -1,10 +1,10 @@
-# CNTT - VER : TEST
+![6kntlsr](https://user-images.githubusercontent.com/13589211/31353073-4beca878-ad5b-11e7-9848-3f9ca0a231fc.png)
 Tên ứng dụng : Tra cứu công nghệ
 Nền tảng sử dụng : Android, WindowsPhone
 Tình trạng : Ứng dụng đang phát triển
 Phiên bản hiện tại : 1.0.2
 Phát triển / Phát hành: UHPD Games
-ID: SV 13520589 DVN
+ID SV 13520589 Họ tên thật DVN
 
 https://play.google.com/store/apps/details?id=com.uhpdgames.cntttracuu
 
