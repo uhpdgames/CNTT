@@ -1,0 +1,91 @@
+
+	[
+		{
+			"mamh": "EN003",
+			"tenmh": "Anh văn 3",
+			"tenta": "English 3",
+			"sotinchi": 4,
+			"sotc_lt": 4,
+			"sotc_th": 0,
+			"khoaql": "BMAV",
+			"mh_truoc": "",
+			"mh_tq": "EN002"
+		},
+		{
+			"mamh": "EN002",
+			"tenmh": "Anh văn 2",
+			"tenta": "English 2",
+			"sotinchi": 4,
+			"sotc_lt": 4,
+			"sotc_th": 0,
+			"khoaql": "BMAV",
+			"mh_truoc": "",
+			"mh_tq": "EN001"
+	},
+	{
+			"mamh": "MA005",
+			"tenmh": "Xác suất thống kê",
+			"tenta": "Probability and Statistics",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "BMTL",
+			"mh_truoc": "",
+			"mh_tq": "MA003"
+		},
+		{
+			"mamh": "MA002",
+			"tenmh": "Giải tích 2",
+			"tenta": "Calculus 2",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "BMTL",
+			"mh_truoc": "",
+			"mh_tq": "MA001"
+		},
+		{
+			"mamh": "IT007",
+			"tenmh": "Hệ điều hành",
+			"tenta": "Operating Systems",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "KTMT",
+			"mh_truoc": "",
+			"mh_tq": "IT006"
+		},
+		{
+			"mamh": "CE325",
+			"tenmh": "Thiết kế dựa trên vi xử lý",
+			"tenta": "Microprocessor-based system design",
+			"sotinchi": 3,
+			"sotc_lt": 2,
+			"sotc_th": 1,
+			"khoaql": "KTMT",
+			"mh_truoc": "IT001",
+			"mh_tq": "IT006"
+		},
+		{
+			"mamh": "CE327",
+			"tenmh": "Tối ưu hóa dựa trên FPGA",
+			"tenta": "FPGA-based optimization",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "KTMT",
+			"mh_truoc": "CE118",
+			"mh_tq": "IT006"
+		},
+		{
+			"mamh": "CE326",
+			"tenmh": "Tự động hóa thiết kế vi mạch",
+			"tenta": "Circuit-design automation",
+			"sotinchi": 3,
+			"sotc_lt": 2,
+			"sotc_th": 1,
+			"khoaql": "KTMT",
+			"mh_truoc": "IT003",
+			"mh_tq": "CE118"
+		}
+	]

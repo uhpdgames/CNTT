@@ -1,0 +1,267 @@
+[
+		
+		{
+			"mamh": "EN003",
+			"tenmh": "Anh văn 3",
+			"tenta": "English 3",
+			"sotinchi": 4,
+			"sotc_lt": 4,
+			"sotc_th": 0,
+			"khoaql": "BMAV",
+			"mh_truoc": "",
+			"mh_tq": "EN002"
+		},
+		{
+			"mamh": "EN002",
+			"tenmh": "Anh văn 2",
+			"tenta": "English 2",
+			"sotinchi": 4,
+			"sotc_lt": 4,
+			"sotc_th": 0,
+			"khoaql": "BMAV",
+			"mh_truoc": "",
+			"mh_tq": "EN001"
+	},
+	{
+			"mamh": "MA005",
+			"tenmh": "Xác suất thống kê",
+			"tenta": "Probability and Statistics",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "BMTL",
+			"mh_truoc": "",
+			"mh_tq": "MA003"
+		},
+		{
+			"mamh": "MA002",
+			"tenmh": "Giải tích 2",
+			"tenta": "Calculus 2",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "BMTL",
+			"mh_truoc": "",
+			"mh_tq": "MA001"
+		},
+		{
+			"mamh": "IS334",
+			"tenmh": "Thương mại điện tử",
+			"tenta": "E-commerce",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "IS336",
+			"tenmh": "Hoạch định tài nguyên doanh nghiệp",
+			"tenta": "Enterprise resource planning",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "IS208",
+			"tenmh": "Quản lý dự án công nghệ thông tin",
+			"tenta": "Information-Technology Project Management",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "IS207",
+			"tenmh": "Phát triển ứng dụng web",
+			"tenta": "Web Application Development",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "IS403",
+			"tenmh": "Phân tích dữ liệu kinh doanh",
+			"tenta": "Data Analysis in Business",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "MA005"
+		},
+		{
+			"mamh": "IS252",
+			"tenmh": "Khai thác dữ liệu",
+			"tenta": "Data mining",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "MA005"
+		},
+		{
+			"mamh": "IS335",
+			"tenmh": "An toàn và bảo mật hệ thống thông tin",
+			"tenta": "Information systems security &amp; protection",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT007"
+		},
+		{
+			"mamh": "IS217",
+			"tenmh": "Kho dữ liệu và OLAP",
+			"tenta": "Data warehouse and OLAP",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS210",
+			"tenmh": "Hệ quản trị cơ sở dữ liệu",
+			"tenta": "Database Management Systems",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS211",
+			"tenmh": "Cơ sở dữ liệu phân tán",
+			"tenta": "Distributed databases",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS402",
+			"tenmh": "Điện toán đám mây",
+			"tenta": "Cloud Computing",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS251",
+			"tenmh": "Nhập môn Hệ thống thông tin địa lý",
+			"tenta": "Introduction to Geographic Information Systems",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS201",
+			"tenmh": "Phân tích thiết kế hệ thống thông tin",
+			"tenta": "Information System Analysis and Design",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS105",
+			"tenmh": "Hệ quản trị cơ sở dữ liệu Oracle",
+			"tenta": "Oracle Database Management System",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT004"
+		},
+		{
+			"mamh": "IS216",
+			"tenmh": "Lập trình Java",
+			"tenta": "Programming with Java",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IT002"
+		},
+		{
+			"mamh": "IS232",
+			"tenmh": "Hệ thống thông tin kế toán",
+			"tenta": "Accounting information systems",
+			"sotinchi": 4,
+			"sotc_lt": 4,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IS336"
+		},
+		{
+			"mamh": "IS338",
+			"tenmh": "Dự báo kinh doanh",
+			"tenta": "Markets analysis",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IS336"
+		},
+		{
+			"mamh": "IS351",
+			"tenmh": "Phân tích không gian",
+			"tenta": "Spatial analysis",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IS251"
+		},
+		{
+			"mamh": "IS352",
+			"tenmh": "Hệ cơ sở dữ liệu không gian",
+			"tenta": "Spatial database systems",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IS251"
+		},
+		{
+			"mamh": "IS332",
+			"tenmh": "Hệ thống thông tin quản lý",
+			"tenta": "Management information systems",
+			"sotinchi": 3,
+			"sotc_lt": 3,
+			"sotc_th": 0,
+			"khoaql": "HTTT",
+			"mh_truoc": "",
+			"mh_tq": "IS201"
+		}
+]

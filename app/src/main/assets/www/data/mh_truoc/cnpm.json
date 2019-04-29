@@ -1,0 +1,68 @@
+[
+		{
+			"mamh": "SE400",
+			"tenmh": "Serminar các vấn đề hiện đại của CNPM",
+			"tenta": "Seminar on Modern Software Engineering",
+			"sotinchi": 4,
+			"sotc_lt": 4,
+			"sotc_th": 0,
+			"khoaql": "CNPM",
+			"mh_truoc": "SE107",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "SE215",
+			"tenmh": "Giao tiếp người máy",
+			"tenta": "Human-computer interaction",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "CNPM",
+			"mh_truoc": "SE100",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "SE107",
+			"tenmh": "Phân tích thiết kế hệ thống",
+			"tenta": "System analysis and design",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "CNPM",
+			"mh_truoc": "IT008",
+			"mh_tq": "SE104"
+		},
+		{
+			"mamh": "SE344",
+			"tenmh": "Lập trình game trong các thiết bị di động",
+			"tenta": "Mobile game programming",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "CNPM",
+			"mh_truoc": "SE346",
+			"mh_tq": "IT001"
+		},
+		{
+			"mamh": "SE346",
+			"tenmh": "Lập trình trên thiết bị di động",
+			"tenta": "Mobile device application development",
+			"sotinchi": 4,
+			"sotc_lt": 3,
+			"sotc_th": 1,
+			"khoaql": "CNPM",
+			"mh_truoc": "IT008",
+			"mh_tq": "IT001"
+		},
+		{
+			"mamh": "SE402",
+			"tenmh": "Điện toán đám mây",
+			"tenta": "Cloud computing",
+			"sotinchi": 2,
+			"sotc_lt": 2,
+			"sotc_th": 0,
+			"khoaql": "CNPM",
+			"mh_truoc": "IT005",
+			"mh_tq": ""
+		}
+	]

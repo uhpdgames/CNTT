@@ -1,0 +1,1698 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mạng Máy Tính</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <!-- THEMES -->
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/themes/custom/flat-ui/jquery.mobile.flatui.css" />
+</head>
+
+<body>
+    <script src='../tra-cuu.js'></script>
+    <script>
+        $(document).ready(function() {
+            lay_du_lieu('mh_tq', 'mmt');
+            lay_du_lieu('mh_truoc', 'mmt');
+        });
+    </script>
+    <!--TRA CUU-->
+    <!-- He thong thong tin-->
+    <div data-role="page" data-quicklinks="true">
+        <div data-theme="a" data-role="header" data-position="fixed" data-theme="b">
+            <a href="" data-iconpos="notext" data-role="button" data-rel="back" data-icon="back" title="Quay lại" data-ajax="false"></a>
+            <h1>Mạng Máy Tính</h1>
+            <a href="../.././index.html" data-iconpos="notext" data-role="button" data-icon="home" title="Trang chủ" data-ajax="false"></a>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <form>
+                <input data-type="search" id="divOfPs-input" placeholder="Nhập mã môn hoặc tên môn học có dấu.">
+            </form>
+
+            <div class="elements" data-filter="true" data-input="#divOfPs-input">
+
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 1</h3>
+                    <table data-column-btn-text="XEM" data-role="table" data-mode="columntoggle" class="ui-responsive table-stroke">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#nmlaptrinh" data-position-fixed="true">Nhập môn Lập trình</a></td>
+
+                                <td>IT001</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#giaitich1" data-position-fixed="true">Giải tích 1</a></td>
+
+                                <td>MA001</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dstt" data-position-fixed="true">Đại số tuyến tính</a></td>
+
+                                <td>MA003</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Những nguyên lý CB của chủ nghĩa Mác Lênin</a></td>
+
+                                <td>SS001</td>
+
+                                <td>5</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#nmdt" data-position-fixed="true">Nhập môn điện tử</a></td>
+
+                                <td>PH001</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat" data-position-fixed="true">Anh Văn 1</a></td>
+
+                                <td>EN001</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Giáo dục thể chất 1</a></td>
+
+                                <td>PE001</td>
+
+                                <td>0</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Giáo dục quốc phòng</a></td>
+
+                                <td>ME001</td>
+
+                                <td>0</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 2</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#lthdt" data-rel="external">Lập trình hướng đối tượng</a></td>
+
+                                <td>IT002</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#ctdl">Cấu trúc dữ liệu và giải thuật</a></td>
+
+                                <td>IT003</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#nmms">Nhập môn mạch số</a></td>
+
+                                <td>PH002</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Vật lý kỹ thuật</a></td>
+
+                                <td>PH003</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#giaitich2">Giải tích 2</a></td>
+
+                                <td>MA002</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Anh Văn 2</a></td>
+
+                                <td>EN002</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Giáo dục thể chất 2</a></td>
+
+                                <td>PE002</td>
+
+                                <td>0</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+
+                    <h3>Học kỳ 3</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+
+                                    <td><a href="#csdl" data-rel="external">Cơ sở dữ liệu</a></td>
+
+                                    <td>IT004</td>
+
+                                    <td>3</td>
+
+                                    <td>1</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td><a href="#nmmmt">Nhập môn mạng máy tính</a></td>
+
+                                    <td>IT005</td>
+
+                                    <td>3</td>
+
+                                    <td>1</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td><a href="#ktmt">Kiến trúc máy tính</a></td>
+
+                                    <td>IT006</td>
+
+                                    <td>3</td>
+
+                                    <td>0</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td><a href="#dangcapnhat">Anh Văn 3</a></td>
+
+                                    <td>EN003</td>
+
+                                    <td>4</td>
+
+                                    <td>0</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td><a href="#ctrr">Cấu trúc rời rạc</a></td>
+
+                                    <td>MA004</td>
+
+                                    <td>4</td>
+
+                                    <td>0</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+
+                    <h3>Học kỳ 4</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="#tbmvttdpt">Thiết bị mạng và truyền thông đa phương tiện</a></td>
+                                    <td>NT111</td>
+                                    <td>3</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+
+                                    <td><a href="#lttt">Lý thuyết thông tin</a></p>
+                                    </td>
+                                    <td>
+                                        NT104
+                                    </td>
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#gtn">Giới thiệu ngành</a>
+                                    </td>
+                                    <td>
+                                        IT009
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#hdh">Hệ điều hành</a>
+                                    </td>
+                                    <td>
+                                        IT007
+                                    </td>
+
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#dlcmcdcsvn">Đường lối cách mạng của Đảng CSVN</a>
+                                    </td>
+                                    <td>
+                                        SS002
+                                    </td>
+
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+
+
+                            </tbody>
+                        </table>
+
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+                    <h3>Học kỳ 5</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#tkm">Thiết kế mạng</a>
+                                    </td>
+
+                                    <td>
+                                        NT113
+                                    </td>
+
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#linux">Hệ điều hành Linux</a>
+                                    </td>
+                                    <td>
+                                        NT103
+                                    </td>
+
+
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#xstk">Xác suất thống kê</a>
+                                    </td>
+                                    <td>
+                                        MA005
+                                    </td>
+
+
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#tdl"> Truyền dữ liệu</a>
+                                    </td>
+                                    <td>
+                                        NT105
+                                    </td>
+
+
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#ltmcb">Lập trình mạng căn bản</a>
+                                    </td>
+                                    <td>
+                                        NT106
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+
+                    <h3>Học kỳ 6</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#atmmt">  An toàn mạng máy tính</a>
+                                    </td>
+                                    <td>
+                                        NT101
+                                    </td>
+
+                                    <td>
+                                        3
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#dangcapnhat">  Đồ án môn học Lập trình ứng dụng mạng</a>
+                                    </td>
+                                    <td>
+                                        NT117
+                                    </td>
+
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#ltudm"> Lập trình ứng dụng mạng</a>
+                                    </td>
+                                    <td>
+                                        NT109
+                                    </td>
+
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#knnn"> Kỹ năng nghề nghiệp</a>
+                                    </td>
+                                    <td>
+                                        SS004
+                                    </td>
+
+                                    <td>
+                                        0
+                                    </td>
+                                    <td>
+                                        2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#chuyennganhtuchon"> Học phần chuyên ngành </a>
+                                    </td>
+                                    <td>&nbsp;</td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#chuyennganhtuchon"> Học phần chuyên ngành </a>
+                                    </td>
+                                    <td>&nbsp;</td>
+
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+
+                    <h3>Học kỳ 7</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#tthcm"> Tư tưởng Hồ Chí Minh</a>
+                                    </td>
+                                    <td>
+                                        SS003
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#cnmvt"> Công nghệ Mạng viễn thông</a>
+                                    </td>
+                                    <td>
+                                        NT402
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#ptudttbdd"> Phát triển ứng dụng trên thiết bị di động</a>
+                                    </td>
+                                    <td>
+                                        NT118
+                                    </td>
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#chuyennganhtuchon">Học phần chuyên ngành</a>
+                                    </td>
+                                    <td>&nbsp;</td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <em><a href="#chuyennganhtudo">Học phần tự chọn</a></em>
+                                    </td>
+                                    <td>&nbsp;</td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+
+                    <h3>Học kỳ 8</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <a href="#ttdn">Thực tập doanh nghiệp</a>
+                                    </td>
+
+                                    <td>
+                                        NT115
+                                    </td>
+
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        3
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#dacn">Đồ án chuyên ngành</a>
+                                    </td>
+
+                                    <td>
+                                        NT114
+                                    </td>
+
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                                        2
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <em><a href="#chuyennganhtudo">Học phần tự chọn</a></em>
+                                    </td>
+
+                                    <td>&nbsp;</td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <em><a href="#chuyennganhtudo">Học phần tự chọn </a></em>
+                                    </td>
+
+                                    <td>&nbsp;</td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <em><a href="#chuyennganhtudo">Học phần tự chọn </a> </em>
+                                    </td>
+                                    <td>&nbsp;</td>
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+                <!-- /collapsible -->
+
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+
+                    <h3>Học kỳ 9</h3>
+                    <ul data-role="listview" data-inset="false">
+                        <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                            <thead>
+
+                                <tr>
+
+                                    <th>Tên môn học</th>
+
+                                    <th data-priority="1">Mã môn</th>
+
+                                    <th data-priority="3">LT</th>
+
+                                    <th data-priority="2">TH</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td colspan="5">
+                                        <a name=""><h5>Lựa chọn 1</h5></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#kltn">Khóa luận tốt nghiệp</a>
+                                    </td>
+                                    <td>
+                                        NT505
+                                    </td>
+
+                                    <td>
+                                        10
+                                    </td>
+                                    <td>
+                                        &nbsp;
+                                    </td>
+
+                                </tr>
+                                <tr>
+                                    <td colspan="5">
+                                        <a name=""><h5>Lựa chọn 2</h5></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#datn"> Đồ án tốt nghiệp</a>
+                                    </td>
+                                    <td>
+                                        NT406
+                                    </td>
+
+                                    <td>
+                                        &nbsp;
+                                    </td>
+                                    <td>
+                                        4
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#bminternet">Bảo mật Internet</a>
+                                    </td>
+                                    <td>
+                                        NT405
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="#tmdtvtkud">Thương mại điện tử và triển khai ứng dụng</a>
+                                    </td>
+                                    <td>
+                                        NT210
+                                    </td>
+
+                                    <td>
+                                        2
+                                    </td>
+                                    <td>
+                                        1
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                </div>
+
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+                    <h3>Môn học tiên quyết</h3>
+                    <div id="xem-mon-tq">
+                        <table id="bang-mon-tq" data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Bộ lọc">
+                            <thead>
+                                <tr class="ui-bar-d">
+                                    <th>Mã môn</th>
+                                    <th>Tên môn học</th>
+                                    <th>LT</th>
+                                    <th>TH</th>
+                                    <th>Mã môn TQ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--JS HERE-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+                    <h3>Môn học học trước</h3>
+                    <!-- <p>Danh sách đang cập nhật ...</p> -->
+                    <div id="xem-mon-hoc-truoc">
+                        <table id="bang-mon-hoc-truoc" data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Bộ lọc">
+                            <thead>
+                                <tr class="ui-bar-d">
+                                    <th>Mã môn</th>
+                                    <th>Tên môn học</th>
+                                    <th>LT</th>
+                                    <th>TH</th>
+                                    <th>Mã môn HT</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--JS HERE -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- /collapsible -->
+
+                <!-- /collapsible -->
+            </div>
+        </div>
+        <!-- / Thiết bị mạng và truyền thông đa phương tiện -->
+        <div data-role="panel" id="tbmvttdpt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Network Appliances and Multimedia Communications</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>· Cấu tạo và cách cấu hình các thiết bị như switch, router…</p>
+            <p>· Các giải thuật định tuyến thông dụng như: RIP, OSPF…</p>
+            <p> · Mạng cục bộ ảo (VLAN)</p>
+            <p> · Cách cấu hình danh sách điều khiển truy cập</p>
+            <p> · NAT, PAT</p>
+            <p> · Một số phương pháp kết nối mạng WAN</p>
+            <p> · Công nghệ đa phương tiện và các chuẩn</p>
+            <p> · Một số ứng dụng của truyền thông đa phương tiện</p>
+
+        </div>
+        <!-- / Thiết bị mạng và truyền thông đa phương tiện -->
+        <!-- / Lý thuyết thông tin -->
+        <div data-role="panel" id="lttt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Information Theory</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày các vấn đề lý thuyết thông tin rời rạc như lượng tin, entropy, nguồn rời rạc và kênh rời rạc, các phương pháp mã hoá và giải mã, mã hoá tối ưu về kích thước, mã hoá chống nhiễu thông tin trên đường truyền, mã hoá bảo mật thông tin</p>
+
+
+        </div>
+        <!-- / Lý thuyết thông tin -->
+        <!-- Giới thiệu ngành  -->
+
+        <div data-role="panel" id="gtnganh" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to IT programs</h3>
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học cung cấp các kiến thức giới thiệu về ngành CNTT nói chung và các chuyên ngành sâu nói riêng gồm: Khoa học máy tính, Kỹ thuật máy tính, Kỹ thuật phần mềm, Mạng máy tính & truyền thông và Hệ thống thông tin. Trong đó cung cấp cho sinh viên biết trong mỗi ngành sẽ học những gì và ra trường sẽ làm được gì, làm ở đâu</p>
+
+        </div>
+        <!-- /Giới thiệu ngành-->
+        <!--  Hệ điều hành -->
+
+        <div data-role="panel" id="hdh" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Operating Systems</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Giới thiệu các khái niệm đi theo trình tự từ đơn giản đến phức tạp, môn học gồm có 9 chương ứng với cấu trúc máy tính từ đơn giản đến phức tạp. Sáu chương đầu giới thiệu các khái niệm cơ bản của một hệ điều hành. Ba chương sau là phần năng cao.
+            </p>
+
+        </div>
+        <!-- / Hệ điều hành-->
+        <!-- / Thiết kế mạng -->
+        <div data-role="panel" id="tkm" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Network Design </h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Các nội dung bao gồm: Phân tích các mục tiêu thiết kế mạng, các đặc trưng hệ thống mạng. Thiết kế một cấu trúc liên kết mạng, lựa chọn thiết bị và phần mềm. Các chiến lược bảo mật và quản lý mạng. Công nghệ và thiết bị cho mạng Campus, mạng doanh nghiệp. Kiểm tra thiết kế mạng và tối ưu hóa thiết kế mạng. Xây dựng tài liệu thiết kế mạng.</p>
+
+
+        </div>
+        <!-- / Thiết kế mạng -->
+        <!-- / Hệ điều hành Linux -->
+        <div data-role="panel" id="linux" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Linux operating system</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn “Hệ điều hành Linux” cung cấp cho sinh viên những kiến thức tổng quan về hệ điều hành Linux, cách thức cài đặt, giao diện sử dụng và các thủ tục làm việc cơ bản với Linux; tổ chức hệ thống tập tin, hệ thống tài khoản, và các thủ tục quản lý hệ thống tập tin, tài khoản; quản trị hệ thống bao gồm quản lý tiến trình, quản lý đĩa, biến môi trường …; shell script, cách viết một script. Cấu hình các dịch vụ trên linux</p>
+
+
+        </div>
+        <!-- / Hệ điều hành Linux -->
+        <!-- / Xác suất thống kê -->
+        <div data-role="panel" id="xstk" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Probability and Statistics</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Trang bị cho sinh viên kiến thức cơ bản về Lý thuyết Xác suất- Thống kê, các kỹ năng tư duy, phân tích và ra quyết định, kỹ năng mô hình hóa các bài toán thực tế bằng công thức toán học. · Lý thuyết xác suất: Không gian xác suất; Biến ngẫu nhiên; Hàm đăc trưng; Dãy các biến ngẫu nhiên. · Thống kê: Mẫu ngẫu nhiên; Ước lượng điểm và khoảng; Kiểm định các giả thiết thống kê; Phân tích phương sai và phân tích hồi quy; Một số vấn đề về quá trình ngẫu nhiên.</p>
+
+
+        </div>
+        <!-- / Xác suất thống kê -->
+        <!-- / Truyền dữ liệu -->
+        <div data-role="panel" id="tdl" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Data communications</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn “Truyền dữ liệu” cung cấp cho sinh viên những kiến thức tổng quan về kỹ thuật truyền dữ liệu, các phương pháp mã hóa và điều chế; các kỹ thuật truyền dữ liệu số và các chuẩn giao tiếp vật lý; các cơ chế điều khiển liên kết dữ liệu, kỹ thuật ghép kênh trong truyền dữ liệu và các mạng truyền dữ liệu.</p>
+
+
+        </div>
+        <!-- / Truyền dữ liệu -->
+        <!-- / Lập trình mạng căn bản -->
+        <div data-role="panel" id="ltmcb" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Basic Network Programming</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học này dành cho sinh viên khoa Mạng máy tính và viễn thông, nội dung của môn học nhằm trang bị cho sinh viên những kiến thức về:</p>
+            <p> · Kiến thức cơ bản về ứng dụng mạng, giao thức</p>
+            <p> · Thiết kế và lập trình chương trình Client Server</p>
+            <p> · Phát triển các ứng dụng unicast/multicast/broadcast</p>
+            <p> · Kỹ thuật phân tán ứng dụng: Web services, .NET remoting (hoặc RMI, CORBA)</p>
+
+
+        </div>
+        <!-- / Lập trình mạng căn bản -->
+        <!--  Kỹ năng nghề nghiệp -->
+
+        <div data-role="panel" id="knnn" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học cung cấp các kỹ năng hỗ trợ năng lực chuyên môn và nghề nghiệp trong lĩnh vực CNTT cần thiết cho sinh viên trường Đại học Công nghệ Thông tin. Trên cơ sở phương pháp luận tiếp cận hệ thống, nội dung môn học hướng sinh viên tới việc chủ động thực hiện quá trình học và tự học đại học và tốt nghiệp với phẩm chất đạo đức tốt, có kiến thức và kỹ năng chuyên môn đáp ứng yêu cầu làm việc của xã hội.</p>
+            <p>Các kiến thức cung cấp gồm:</p>
+            <p>- Kỹ năng đọc, nghe và ghi chép</p>
+            <p>- Kỹ năng đối thoại</p>
+            <p>- Kỹ năng tự học</p>
+            <p>- Kỹ năng làm việc nhóm</p>
+            <p>- Kỹ năng quan sát, nhận diện và giải quyết vấn đề</p>
+            <p>- Kỹ năng thuyết trình và điều khiển cuộc họp</p>
+            <p>- Kỹ năng tổ chức công việc</p>
+            <p>- Kỹ năng thực hành nghề nghiệp</p>
+            <p>- Kỹ năng soạn thảo văn bản, viết báo cáo</p>
+
+
+        </div>
+        <!-- / Hệ điều hành-->
+        <!-- / Lập trình ứng dụng mạng -->
+        <div data-role="panel" id="ltudm" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Network-Based Application Development</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p> Kiến thức cơ bản về ứng dụng web và mô hình phát triển ứng dụng · Công nghệ J2EE · MVC framework và các framework thông dụng: Struts/Spring · An toàn ứng dụng mạng</p>
+
+
+        </div>
+        <!-- / Lập trình ứng dụng mạng -->
+        <!-- / An toàn mạng máy tính -->
+        <div data-role="panel" id="atmmt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Network Security </h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Tổng quan về các nguyên tắc an ninh Mạng máy tính; Xây dựng một tổ chức an toàn, quyền truy cập và kiểm soát truy cập; Phương thức ngăn chặn việc tấn công hệ thống, bảo vệ chống lại việc tấn công Botnet, các vấn đề bảo vệ hệ thống mạng chống phần mềm độc hại, an ninh mạng Windows và Unix / Linux, bảo mật mạng truyền dẫn; bảo mật mạng LAN, mạng không dây và mạng di động.</p>
+
+
+        </div>
+        <!-- / An toàn mạng máy tính -->
+        <!-- Tư tưởng Hồ Chí Minh -->
+
+        <div data-role="panel" id="tthcm" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Ho Chi Minh Ideology</h3>
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Ngoài chương mở đầu, nội dung môn học gồm 7 chương: chương 1, trình bày về cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh; từ chương 2 đến chương 7 trình bày những nội dung cơ bản của Tư tưởng Hồ Chí Minh theo mục tiêu môn học.
+            </p>
+        </div>
+        <!-- /  Tư tưởng Hồ Chí Minh -->
+
+        <!-- / Công nghệ Mạng viễn thông -->
+        <div data-role="panel" id="cnmvt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Communications Technology</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học này dành cho sinh viên khoa Mạng máy tính và viễn thông, nội dung của môn học nhằm trang bị cho sinh viên những kiến thức về truyền thông sử dụng mạng quang</p>
+
+
+        </div>
+        <!-- / Công nghệ Mạng viễn thông -->
+        <!-- / Phát triển ứng dụng trên thiết bị di động -->
+        <div data-role="panel" id="ptudttbdd" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Mobile Application Development</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>· Môn học bao gồm các mô hình phát triển ứng dụng di động trên Google Android. Sinh viên sẽ được học việc triển khai thiết kế giao diện hiệu quả cho các thiết bị di động hiện đại. Sinh viên sẽ bắt đầu bằng cách sử dụng mô phỏng trước khi cài đặt đến các thiết bị thực tế. Sinh viên được cung cấp kiến thức để xây dựng ứng dụng Native app lẫn cross platform app. Trong ứng dụng native app, sinh viên sử dụng ngôn ngữ lập trình Java để thể hiện chương trình trên Android. · Trong ứng dụng Native app, sinh viên sử dụng HTML và CSS để xây dựng ứng dụng đáp ứng trên mọi thiết bị, sử dụng JavaScript để tạo ra một ứng dụng chuyển tiếp, liên lạc và swipe, hình ảnh động. Trong khóa học, sinh viên sẽ được khuyến khích để tích hợp các dịch vụ web hiện có từ Google và Amazon như là một phần của ứng dụng của họ. · Thông qua lý thuyết và thực hành, sinh viên có khả năng thu thập chứng cứ tại máy tính cá nhân cũng như tại nơi xảy ra sự cố bằng cách sử dụng các công cụ thu thập dữ liệu. Các nội dung bao gồm: · Giới thiệu về tính toán di động khắp mọi nơi, tính toán cảm ngữ cảnh, giới thiệu hệ điều hành Android và các phương pháp lập trình trên Android. Các phương pháp lập trình nâng cao: đa luồng, đa hành vi, kết nối SQLite, Web Services. · Khái niệm cross platform, thiết kế web di động, ứng dụng cho Điện thoại di động. Đánh dấu cho điện thoại di động. Web Apps di động và tính năng thiết bị từ Web Apps. Giới thiệu PhoneGap. Bản địa hóa ứng dụng.</p>
+
+
+        </div>
+        <!-- / Phát triển ứng dụng trên thiết bị di động -->
+        <!-- / Thực tập doanh nghiệp -->
+        <div data-role="panel" id="ttdn" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Internship</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p> Trong chương trình thực tập cuối khóa sinh viên phải đến thực tập tại các công ty, đơn vị sự nghiệp trong lĩnh vực để làm quen với môi trường thực tế của nghề nghiệp; nắm bắt các công việc; học hỏi kinh nghiệm trong quá trình tác nghiệp tại các đơn vị thực tập, xử lý các tình huống phát sinh liên quan đến lĩnh vực chuyên môn mà sinh viên đã lựa chọn.</p>
+
+
+        </div>
+        <!-- / Thực tập doanh nghiệp -->
+        <!-- / Đồ án chuyên ngành -->
+        <div data-role="panel" id="dacn" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Capstone Project</h3>
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Đồ án chuyên ngành yêu cầu sinh viên áp dụng tất cả những kiến thức và kỹ năng đã học để giải quyết một vấn đề thực tế của chuyên ngành mà sinh viên lựa chọn dưới sự hướng dẫn của giảng viên.</p>
+        </div>
+        <!-- / Đồ án chuyên ngành -->
+        <!-- / thực tập doanh nghiệp -->
+        <div data-role="panel" id="ttdn" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Internship</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Trong chương trình thực tập cuối khóa sinh viên phải đến thực tập tại các công ty, đơn vị sự nghiệp trong lĩnh vực để làm quen với môi trường thực tế của nghề nghiệp; nắm bắt các công việc; học hỏi kinh nghiệm trong quá trình tác nghiệp tại các đơn vị thực tập, xử lý các tình huống phát sinh liên quan đến lĩnh vực chuyên môn mà sinh viên đã lựa chọn.</p>
+
+
+        </div>
+        <!-- / thực tập doanh nghiệp -->
+        <!-- / Khóa luận tốt nghiệp -->
+        <div data-role="panel" id="kltn" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Thesis</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Đồ án tốt nghiệp là một kết quả thực hành chứng tỏ khả năng làm việc thực tế của sinh viên khi kết thúc chương trình đào tạo bậc kỹ sư. Đề tài đồ án tốt nghiệp là một đề tài nhấn mạnh tới nghiên cứu về công nghệ và triển khai thử nghiệm, qua đó cho thấy khả năng tìm hiểu và thực hiện độc lập nhất định của sinh viên. Trong đồ án tốt nghiệp cần nêu rõ kết quả tìm hiểu công nghệ và kết quả triển khai của sinh viên, đây là thành phần quan trọng nhất của đồ án tốt nghiệp.</p>
+
+
+        </div>
+        <!-- / Khóa luận tốt nghiệp -->
+        <!-- / Đồ án tốt nghiệp -->
+        <div data-role="panel" id="datn" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Graduation Project</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Đồ án tốt nghiệp là một kết quả thực hành chứng tỏ khả năng làm việc thực tế của sinh viên khi kết thúc chương trình đào tạo bậc kỹ sư. Đề tài đồ án tốt nghiệp là một đề tài nhấn mạnh tới nghiên cứu về công nghệ và triển khai thử nghiệm, qua đó cho thấy khả năng tìm hiểu và thực hiện độc lập nhất định của sinh viên. Trong đồ án tốt nghiệp cần nêu rõ kết quả tìm hiểu công nghệ và kết quả triển khai của sinh viên, đây là thành phần quan trọng nhất của đồ án tốt nghiệp.
+            </p>
+
+
+        </div>
+        <!-- / Đồ án tốt nghiệp -->
+        <!-- / Bảo mật Internet -->
+        <div data-role="panel" id="bminternet" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Internet Security</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+
+            <p>· Tổng quan về bảo mật Internet</p>
+            <p>· Động cơ của kẻ tấn công</p>
+            <p>· Sự thăm dò, quét mạng và liệt kê</p>
+            <p>· Tấn công hệ thống</p>
+            <p>· Các phần mềm gây hại (Virus, Worm, Trojan, Backdoor, Rootkit)</p>
+            <p>· Nghe lén</p>
+            <p>· Các kỹ thuật lừa đảo</p>
+            <p>· Tấn công từ chối dịch vụ</p>
+            <p>· Tường lửa và hệ thống phát hiện xâm nhập</p>
+            <p>· Các kỹ thuật kiểm thử hệ thống và biện pháp đối phó</p>
+        </div>
+        <!-- / Bảo mật Internet -->
+        <!-- / Thương mại điện tử và triển khai ứng dụng -->
+        <div data-role="panel" id="tmdtvtkud" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: E-commerce and Application development </h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Các nội dung bao gồm: Hoạt động thương mại và Thương mại Điện tử. Các mô hình Thương mại Điện tử. E-Marketing, M-commerce. Công nghệ cho Website, Web động, Web tĩnh, PHP và MySQL. Các nguy cơ về an ninh trong Thương mại Điện tử. Bảo mật thông tin, chứng thực số và chữ ký điện tử. Giao dịch điện tử trong Thương mại Điện tử. Quản trị Doanh nghiệp trong Thương mại Điện tử. Quản trị tài nguyên doanh nghiệp (ERP), quản lý quan hệ khách hàng (CRM), quản lý chuỗi cung ứng (SCM). Sinh viên được thực tập triển khai phần mềm thương mại điện tử mã nguồn mở EcShop và phần mềm quản lý quan hệ khách hàng Vtiger CRM.</p>
+
+
+        </div>
+        <!-- / Thương mại điện tử và triển khai ứng dụng -->
+        <!-- đang cập nhật  -->
+
+        <div data-role="panel" id="dangcapnhat" data-position="left" data-display="push" data-theme="b">
+            <p>Đang cập nhật ...</p>
+        </div>
+        <!-- /đang cập nhật -->
+
+        <!-- nmlaptrinh  -->
+
+        <div data-role="panel" id="nmlaptrinh" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to programming</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Cung cấp cho sinh viên những khái niệm cơ bản về thuật toán, lưu đồ, mã giả, chương trình, trình dịch, môi trường thực thi; các kiểu dữ liệu cơ sở, các phép toán và những cấu trúc điều khiển cơ bản của một ngôn ngữ lập trình.</p>
+        </div>
+        <!-- /nmlaptrinh -->
+
+        <!-- Giải tích 1  -->
+
+        <div data-role="panel" id="giaitich1" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Môn học cung cấp các kiến thức nhập môn giải tích. Nội dung bao gồm :</p>
+            <p>- Số phức.</p>
+            <p>- Phép tính vi phân của hàm nhiều biến, công thức Taylor, đạo hàm theo hướng.</p>
+            <p>- Ứng dụng của hàm nhiều biến trong bài toán cực trị, trong hình học.</p>
+            <p>- Phép tính tích phân của hàm một biến.</p>
+            <p>- Chuỗi số, chuỗi hàm.</p>
+        </div>
+        <!-- /Giải tích 1 -->
+
+        <!-- Đại số tuyến tính  -->
+
+        <div data-role="panel" id="dstt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Linear algebra</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Một số nội dung chính của môn học là:</p>
+            <p>- Ma trận, định thức, hệ phương trình tuyến tính. Giải hệ phương trình tuyến tính bằng phương pháp Cramer, phương pháp Gauss.</p>
+            <p>- Không gian tuyến tính, sự phụ thuộc, độc lập tuyến tính.</p>
+            <p>- Chéo hóa ma trận và ý nghĩa của nó.</p>
+            <p>- Ánh xạ tuyến tính, dạng toàn phương; đưa dạng toàn phương về dạng chính tắc.</p>
+        </div>
+        <!-- /Đại số tuyến tính -->
+
+        <!-- Nhập môn điện tử  -->
+
+        <div data-role="panel" id="nmdt" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung</p>
+            <p>- Trình bày các khải niệm, nguyên lý và phương pháp cơ bản về điện tử</p>
+            <p>- Giới thiệu về nguyên lý hoạt động của các linh kiện điện tử cơ bản: đặc tính, cách phân loại và cách kết nối các linh kiện trong mạch điện tử. Các linh kiện bao gồm: điện trở, tụ điện, cuộn dây, Transistor BJT, Transistor trường FET.</p>
+            <p>- Ứng dụng các linh kiện này vào mạch điện thực tế.</p>
+            <p>- Chi tiết gồm các phần:</p>
+            <p>+ Nguồn điện một chiều</p>
+            <p>+ Điện từ trường</p>
+            <p>+ Dòng điện xoay chiều</p>
+            <p>+ Điện trở, tụ điện, cuộn dây và biến áp</p>
+            <p>+ Chất bán dẫn và diod</p>
+            <p>+ Transistor</p>
+            <p>+ Transistor trường.</p>
+            <p>+ Mạch khuếch đại</p>
+        </div>
+        <!-- /Nhập môn điện tử -->
+        <!-- Lập trình hướng đối tượng  -->
+
+        <div data-role="panel" id="lthdt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Object Oriented Programming (OOP)</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Môn học này trình bày về lập trình hướng đối tượng với ngôn ngữ C++. Chương trình môn học gồm 2 phần cơ bản được chia thành 9 chương. Phần 1 bao gồm 4 chương đầu tiên giới thiệu về lập trình C++ cơ bản như: Kiểu dữ liệu, luồng điều khiển, hàm, tham số, chồng hàm, mảng, con trỏ và mảng động. Phần 2 gồm 5 chương tiếp theo trình bài về lập trình hướng đối tượng như: cấu trúc, lớp, constructor, destructor, overload, friend, reference, kế thừa, đa hàm, hàm ảo.
+            </p>
+
+        </div>
+        <!-- /Lập trình hướng đối tượng-->
+
+        <!-- Cấu trúc dữ liệu và giải thuật -->
+
+        <div data-role="panel" id="ctdl" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Data Structures and Algorithms</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: </p>
+            <p>Môn học này trình bày về cấu trúc dữ liệu và giải thuật, thiết kế các thuật toán, là môn học cơ sở cần thiết cho sinh viên công nghệ thông tin nói chung và theo hướng lập trình nói riêng.</p>
+            <p>
+                <li>Chương 1 trình bày về tổng quan về giải thuật và cấu trúc dữ liệu.</li>
+            </p>
+            <p>
+                <li>Chương 2 giới thiệu sơ lược về các thuật toán tìm kiếm và sắp xếp. </li>
+            </p>
+            <p>
+                <li>Chương 3 trình bày về cấu trúc dữ liệu động như con trỏ, danh sách liên kết. </li>
+            </p>
+            <p>
+                <li>Chương 4 trình bày về cấu trúc cây, các loại cây nhị phân.</li>
+            </p>
+
+        </div>
+        <!-- /Cấu trúc dữ liệu và giải thuật-->
+
+
+        <!-- Nhập môn mạch số  -->
+
+        <div data-role="panel" id="nmms" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to Digital Circuits</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Môn học này trình bày</p>
+            <p>- Các lý thuyết cơ sở về đại số logic</p>
+            <p>- Hệ thống số đếm và mã hóa</p>
+            <p>- Thiết kế và phân tích mạch tổ hợp</p>
+            <p>- Thiết kế các mạch số cơ bản</p>
+            <p>- Thiết kế và phân tích mạch tuần tự</p>
+            <p>- Thiết kế các bộ đếm.</p>
+
+        </div>
+        <!-- /Nhập môn mạch số-->
+        <!-- Giải tích 2 -->
+
+        <div data-role="panel" id="giaitich2" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung: Một số nội dung chính của môn học là</p>
+            <p>- Phép tính tích phân của hàm nhiều biến: tích phân kép, tích phân bội, tích phân đường, tích phân mặt.</p>
+            <p>- Phương trình vi phân cấp một, phương trình vi phân cấp hai, hệ phương trình vi phân.</p>
+
+        </div>
+        <!-- /Giải tích 2-->
+
+        <!--  Cơ sở dữ liệu -->
+
+        <div data-role="panel" id="csdl" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Fundamental Database</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Cung cấp các kiến thức về cơ sở dữ liệu như: khái niệm cơ bản về cơ sở dữ liệu quan hệ; Các phép toán đại số quan hệ; Ngôn ngữ SQL; Ngôn ngữ tân từ, Các ràng buộc toàn vẹn trên một sở dữ liệu; Quản trị bên trong cơ sở dữ liệu, môi trường khách/chủ</p>
+
+        </div>
+        <!-- / Cơ sở dữ liệu-->
+
+
+        <!--  Nhập môn mạng máy tính-->
+
+        <div data-role="panel" id="nmmmt" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Môn Mạng máy tính cung cấp những khái niệm tổng quan về mạng máy tính, bao gồm mô hình tham chiếu OSI, TCP/IP và các chuẩn mạng; những khái niệm, nguyên lý cơ bản về tín hiệu, truyền tín hiệu. Sinh viên được tìm hiễu sâu về mô hình TCP/IP như các giao thức trong các tầng đặc biệt là tầng mạng và tầng vận chuyển. Ngoài ra sinh viên cũng được làm quen với các dịch vụ mạng cơ bản, kỹ thuật mạng không dây và bảo mật mạng.</p>
+
+        </div>
+        <!-- / Nhập môn mạng máy tính-->
+
+        <!--  Kiến trúc máy tính -->
+
+        <div data-role="panel" id="ktmt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Computer Architecture</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung: Môn học này trình bày những kiến thức cơ bản về kiến trúc máy tính bao gồm lịch sử phát triển của máy tính, các thành phần cơ bản của một máy tính, các khái niệm cơ bản liên quan đến các hệ thống số được dùng trong máy tính, khái niệm về kiến trúc máy tính, tập lệnh, các kiểu kiến trúc máy tính, các kiểu định vị được dùng trong kiến trúc, phân biệt được hai loại kiến trúc CISC (Complex Instruction Set Computer) và RISC (Reduced Instruction Set Computer), cấu trúc của bộ xử lý trung tâm và diễn tiến thi hành một lệnh mã máy, các kiến thức về bộ nhớ, về đường truyền, giao tiếp giữa các bộ phận của máy tính.</p>
+
+        </div>
+        <!-- / Kiến trúc máy tính-->
+
+        <!--  Cấu trúc rời rạc-->
+
+        <div data-role="panel" id="ctrr" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Discrete Structures</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Cung cấp cho sinh viên những kiến thức cơ bản về</p>
+            <p>- Toán rời rạc : Cơ sở lôgic; Các phương pháp đếm; Quan hệ; Đại số Bool.</p>
+            <p>- Lý thuyết đồ thị: Các khái niệm cơ bản của lý thuyết đồ thị; Đồ thị và cây.</p>
+            <p>- Đồ thị và cây và một số khái niệm cơ bản của lý thuyết đồ thị .</p>
+
+        </div>
+        <!-- / Cấu trúc rời rạc-->
+        <!-- / Các môn tự chọn chung 1 -->
+        <div data-role="panel" id="chuyennganhtudo" data-position="right" data-display="push" data-theme="a">
+            <p>Tự chọn tự do</p>
+            <p>Sinh viên cần học 4 môn tự chọn trong đó có thể chọn học không quá 1 môn là môn bắt buộc của chuyên ngành khác.</p>
+            <p><a href="#tuchontudo" data-transition="flip">Danh sách môn tự chọn</a></p>
+        </div>
+        <!-- / Các môn tự chọn chung 1 -->
+        <!-- / Các môn tự chọn chung 1 -->
+        <div data-role="panel" id="chuyennganhtuchon" data-position="right" data-display="push" data-theme="a">
+            <p>Tự chọn chuyên ngành</p>
+            <p>Sinh viên chọn 1 trong 2 chuyên ngành</p>
+            <p>
+                <li><a href="#anninh" data-transition="flip">Truyền thông và An ninh thông tin</a></li>
+            </p>
+            <p>
+                <li><a href="#chonmang" data-transition="flip">Quản trị và Phát triển ứng dụng mạng</a></li>
+            </p>
+
+        </div>
+        <!-- / Các môn tự chọn chung 1 -->
+        <!--  Tự chọn-->
+        <div id="anninh" data-role="page" data-dialog="true" data-quicklinks="true">
+            <div data-role="header" data-theme="b">
+                <h1>Mạng Máy Tinh</h1>
+            </div>
+            <div role="content" class="ui-content">
+
+                <ul data-role="listview" data-inset="false">
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-filter="true" data-input="#filterTable-input" data-mode="columntoggle">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Công nghệ thoại IP
+                                </td>
+                                <td>
+                                    NT303
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Xây dựng chuẩn chính sách an toàn thông tin trong doanh nghiệp
+                                </td>
+                                <td>
+                                    NT331
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Hệ thống tìm kiếm, phát hiện và ngăn ngừa xâm nhập
+                                </td>
+                                <td>
+                                    NT204
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </ul>
+            </div>
+        </div>
+        <!--  Tự chọn-->
+        <div id="chonmang" data-role="page" data-dialog="true" data-quicklinks="true">
+            <div data-role="header" data-theme="b">
+                <h1>Mạng Máy Tính</h1>
+            </div>
+            <div role="content" class="ui-content">
+
+                <ul data-role="listview" data-inset="false">
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-filter="true" data-input="#filterTable-input" data-mode="columntoggle">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Quản trị hệ thống mạng
+                                </td>
+                                <td>
+                                    NT206
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Lập trình ứng dụng Web
+                                </td>
+                                <td>
+                                    NT208
+                                </td>
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Phân tích thiết kế hệ thống
+                                </td>
+                                <td>
+                                    SE107
+                                </td>
+
+                                <td>
+                                    3
+                                </td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </ul>
+            </div>
+        </div>
+        <!--  Tự chọn-->
+        <div id="tuchontudo" data-role="page" data-dialog="true" data-quicklinks="true">
+            <div data-role="header" data-theme="b">
+                <h1>Hệ Thống Thông Tin</h1>
+            </div>
+            <div role="content" class="ui-content">
+                <h3>Môn học tự chọn</h3>
+                <h3>Số tín chỉ: 10</h3>
+                <ul data-role="listview" data-inset="false">
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-filter="true" data-input="#filterTable-input" data-mode="columntoggle">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    Tính toán lưới
+                                </td>
+                                <td>
+                                    NT333
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Pháp chứng kỹ thuật số
+                                </td>
+                                <td>
+                                    NT334
+                                </td>
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Tấn công mạng
+                                </td>
+                                <td>
+                                    NT205
+                                </td>
+
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    An toàn mạng không dây và di động
+                                </td>
+                                <td>
+                                    NT330
+                                </td>
+
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Xử lý tín hiệu trong Truyền thông
+                                </td>
+                                <td>
+                                    NT332
+                                </td>
+
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Quản lý rủi ro và an toàn thông tin trong doanh nghiệp
+                                </td>
+                                <td>
+                                    NT207
+                                </td>
+
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Lập trình hệ thống và mạng
+                                </td>
+                                <td>
+                                    NT209
+                                </td>
+
+
+                                <td>
+                                    2
+                                </td>
+                                <td>
+                                    1
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </ul>
+
+
+            </div>
+        </div>
+</body>
+
+</html>

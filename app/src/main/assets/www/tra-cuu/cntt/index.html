@@ -1,0 +1,2096 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Công Nghệ Thông Tin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <!-- THEMES -->
+    <script src="../../js/jquery.js"></script>
+    <script src="../../js/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/themes/custom/flat-ui/jquery.mobile.flatui.css" />
+</head>
+
+<body>
+    <script src='../tra-cuu.js'></script>
+    <script>
+        $(document).ready(function() {
+            lay_du_lieu('mh_tq', 'kttt');
+            // lay_du_lieu('mh_truoc', 'kttt');
+        });
+    </script>
+    <!--TRA CUU-->
+    <!-- cong nghe thong tin-->
+    <div data-role="page" data-quicklinks="true">
+        <div data-theme="a" data-role="header" data-position="fixed" data-theme="b">
+            <a href="" data-iconpos="notext" data-role="button" data-rel="back" data-icon="back" title="Quay lại" data-ajax="false"></a>
+            <h1>Công Nghệ Thông Tin</h1>
+            <a href="../.././index.html" data-iconpos="notext" data-role="button" data-icon="home" title="Trang chủ" data-ajax="false"></a>
+        </div>
+        <!-- /header -->
+        <div data-role="content">
+            <form>
+
+                <input data-type="search" id="divOfPs-input" placeholder="Nhập mã môn hoặc tên môn học có dấu.">
+            </form>
+            <div class="elements" data-filter="true" data-input="#divOfPs-input">
+
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 1</h3>
+                    <table data-column-btn-text="XEM" data-role="table" id="table-column-toggle" data-mode="columntoggle" class="ui-responsive table-stroke">
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#nmlaptrinh" data-position-fixed="true">Nhập môn Lập trình</a></td>
+
+                                <td>IT001</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#giaitich1" data-position-fixed="true">Giải tích 1</a></td>
+
+                                <td>MA001</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dstt" data-position-fixed="true">Đại số tuyến tính</a></td>
+
+                                <td>MA003</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#gtnganh" data-position-fixed="true">Giới thiệu ngành</a></td>
+
+                                <td>IT009</td>
+
+                                <td>2</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#nmdt" data-position-fixed="true">Nhập môn điện tử</a></td>
+
+                                <td>PH001</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat" data-position-fixed="true">Anh Văn 1</a></td>
+
+                                <td>EN001</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Giáo dục thể chất 1</a></td>
+
+                                <td>PE001</td>
+
+                                <td>0</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Giáo dục quốc phòng</a></td>
+
+                                <td>ME001</td>
+
+                                <td>0</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 2</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#lthdt" data-rel="external">Lập trình hướng đối tượng</a></td>
+
+                                <td>IT002</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#ctdl">Cấu trúc dữ liệu và giải thuật</a></td>
+
+                                <td>IT003</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#nmms">Nhập môn mạch số</a></td>
+
+                                <td>PH002</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Vật lý kỹ thuật</a></td>
+
+                                <td>PH003</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#giaitich2">Giải tích 2</a></td>
+
+                                <td>MA002</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Anh Văn 2</a></td>
+
+                                <td>EN002</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Giáo dục thể chất 2</a></td>
+
+                                <td>PE002</td>
+
+                                <td>0</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 3</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#csdl" data-rel="external">Cơ sở dữ liệu</a></td>
+
+                                <td>IT004</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#nmmmt">Nhập môn mạng máy tính</a></td>
+
+                                <td>IT005</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#ktmt">Kiến trúc máy tính</a></td>
+
+                                <td>IT006</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#ctrr">Cấu trúc rời rạc</a></td>
+
+                                <td>MA004</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+
+
+                            <tr>
+
+                                <td><a href="#knnn">Kỹ năng nghề nghiệp</a></td>
+
+                                <td>SS004</td>
+
+                                <td>2</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Anh Văn 3</a></td>
+
+                                <td>EN003</td>
+
+                                <td>4</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 4</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat">Những nguyên lý CB của chủ nghĩa Mác Lênin</a></td>
+
+                                <td>SS001</td>
+
+                                <td>5</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#xstk" data-rel="external">Xác suất thống kê</a></td>
+
+                                <td>MA005</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#hdh">Hệ điều hành</a></td>
+
+                                <td>IT007</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+
+                            <tr>
+
+                                <td><a href="#csht">Cơ sở hạ tầng Công nghệ thông tin</a></td>
+
+                                <td>IE101</td>
+
+                                <td>2</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#ccnn">Các công nghệ nền</a></td>
+
+                                <td>IE102</td>
+
+                                <td>2</td>
+
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 5</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#dangcapnhat" data-rel="external">Đường lối cách mạng của Đảng CSVN</a></td>
+
+                                <td>SS002</td>
+
+                                <td>3</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#qltt">Quản lý thông tin</a></td>
+
+                                <td>IE103</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#ivcnweb">Internet và công nghệ Web</a></td>
+
+                                <td>IE104</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#anttin">Nhập môn bảo đảm và an ninh thông tin</a></td>
+
+                                <td>IE105</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#tkgdnd">Thiết kế giao diện người dùng</a></td>
+
+                                <td>IE106</td>
+
+                                <td>3</td>
+
+                                <td>1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 6</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#tthcm">Tư tưởng Hồ Chí Minh</a></td>
+
+                                <td>SS003</td>
+
+                                <td>2</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#tuchon24">Tự chọn 2 trong 4 môn có định hướng</a></td>
+
+                                <td></td>
+
+                                <td>8</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td> <a href="#chuyennganhtuchon-1" data-transition="flip">Môn học tự chọn tự do</a></td>
+
+                                <td></td>
+
+                                <td>≥7</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 7</h3>
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#tuchon24">Tự chọn 2 trong 4 môn có định hướng</a></td>
+
+                                <td></td>
+
+                                <td>8</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#doan-tt">Đồ án chuẩn bị tốt nghiệp</a></td>
+
+                                <td>IE207</td>
+
+                                <td>0</td>
+
+                                <td>2</td>
+                            </tr>
+
+                            <tr>
+
+                                <td> <a href="#chuyennganhtuchon-1" data-transition="flip">Môn học tự chọn tự do</a></td>
+
+                                <td></td>
+
+                                <td>≥6</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+
+                    <h3>Học kỳ 8</h3>
+                    <p>Sinh viên chọn 1 trong 2 hình thức tốt nghiệp</p>
+
+                    <table class="ui-responsive table-stroke" data-column-btn-text="XEM" data-role="table" data-mode="columntoggle">
+
+
+                        <thead>
+
+                            <tr>
+
+                                <th>Tên môn học</th>
+
+                                <th data-priority="1">Mã môn</th>
+
+                                <th data-priority="3">LT</th>
+
+                                <th data-priority="2">TH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            <tr>
+
+                                <td><a href="#totnghiep">Khóa luận tốt nghiệp</a></td>
+
+                                <td>IE505</td>
+
+                                <td>10</td>
+
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+
+                                <td><a href="#totnghiep2" data-transition="flip">Chuyên đề tốt nghiệp</a></td>
+
+                                <td></td>
+
+                                <td>≥10</td>
+
+                                <td>0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+                    <h3>Môn học tiên quyết</h3>
+                    <div id="xem-mon-tq">
+                        <table id="bang-mon-tq" data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Bộ lọc">
+                            <thead>
+                                <tr class="ui-bar-d">
+                                    <th>Mã môn</th>
+                                    <th>Tên môn học</th>
+                                    <th>LT</th>
+                                    <th>TH</th>
+                                    <th>Mã môn TQ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!--JS HERE-->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- /collapsible -->
+                <div data-role="collapsible" data-inset="false" data-theme="b">
+                    <h3>Môn học học trước</h3>
+                    <p>Danh sách đang cập nhật ...</p>
+<!--                     <div id="xem-mon-hoc-truoc">
+                        <table id="bang-mon-hoc-truoc" data-role="table" data-mode="columntoggle" class="ui-body-d ui-shadow table-stripe ui-responsive" data-column-btn-theme="b" data-column-btn-text="Bộ lọc">
+                            <thead>
+                                <tr class="ui-bar-d">
+                                    <th>Mã môn</th>
+                                    <th>Tên môn học</th>
+                                    <th>LT</th>
+                                    <th>TH</th>
+                                    <th>Mã môn HT</th>
+                                </tr>
+                            </thead>
+                            <tbody> -->
+                                <!--JS HERE -->
+                   <!--          </tbody>
+                        </table>
+                    </div> -->
+                </div>
+                <!-- /collapsible -->
+
+            </div>
+
+        </div>
+        <!-- /content -->
+        <!-- Gioi thieu -->
+
+        <!--     Tự chọn hẹp-->
+
+        <div data-role="panel" id="tuchon24" data-position="left" data-display="push" data-theme="b">
+            <h3>Nhóm các môn học chuyên ngành</h3>
+            <p>Nhóm các môn học chuyên ngành gồm 2 loại:</p>
+            <p>- Nhóm các môn học chuyên ngành bắt buộc (tự chọn có định hướng), gồm 4 hướng sau:</p>
+            <p>
+                <li>Hướng 1: Ứng dụng CNTT phân tích định lượng doanh nghiệp.</li>
+            </p>
+            <p>
+                <li>Hướng 2: Ứng dụng CNTT quản lý, giám sát hoạt động doanh nghiệp.</li>
+            </p>
+            <p>
+                <li>Hướng 3: Ứng dụng truyền thông xã hội và công nghệ Web.</li>
+            </p>
+            <p>
+                <li>Hướng 4: Ứng dụng CNTT vào Tài nguyên - Môi trường, Địa lý, …</li>
+            </p>
+            <p>- Nhóm các môn học chuyên ngành tự chọn: các môn học đang cập nhật...</p>
+            <p><a href="#chuyennganhtuchon-chitiet" data-transition="flip">Xem chi tiết</a></p>
+        </div>
+        <!-- /   tu chon -->
+
+
+
+        <!-- nmlaptrinh  -->
+
+        <div data-role="panel" id="nmlaptrinh" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to programming</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Cung cấp cho sinh viên những khái niệm cơ bản về thuật toán, lưu đồ, mã giả, chương trình, trình dịch, môi trường thực thi; các kiểu dữ liệu cơ sở, các phép toán và những cấu trúc điều khiển cơ bản của một ngôn ngữ lập trình.</p>
+        </div>
+        <!-- /nmlaptrinh -->
+        <!-- Giải tích 1  -->
+
+        <div data-role="panel" id="giaitich1" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung: Môn học cung cấp các kiến thức nhập môn giải tích. Nội dung bao gồm :</p>
+            <p>- Số phức.</p>
+            <p>- Phép tính vi phân của hàm nhiều biến, công thức Taylor, đạo hàm theo hướng.</p>
+            <p>- Ứng dụng của hàm nhiều biến trong bài toán cực trị, trong hình học.</p>
+            <p>- Phép tính tích phân của hàm một biến.</p>
+            <p>- Chuỗi số, chuỗi hàm.</p>
+        </div>
+        <!-- /Giải tích 1 -->
+
+        <!-- Đại số tuyến tính  -->
+
+        <div data-role="panel" id="dstt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Linear algebra</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung: Một số nội dung chính của môn học là:</p>
+            <p>- Ma trận, định thức, hệ phương trình tuyến tính. Giải hệ phương trình tuyến tính bằng phương pháp Cramer, phương pháp Gauss.</p>
+            <p>- Không gian tuyến tính, sự phụ thuộc, độc lập tuyến tính.</p>
+            <p>- Chéo hóa ma trận và ý nghĩa của nó.</p>
+            <p>- Ánh xạ tuyến tính, dạng toàn phương; đưa dạng toàn phương về dạng chính tắc.</p>
+        </div>
+        <!-- /Đại số tuyến tính -->
+        <!-- Giới thiệu ngành  -->
+
+        <div data-role="panel" id="gtnganh" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to IT programs</h3>
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học cung cấp các kiến thức giới thiệu về ngành CNTT nói chung và các chuyên ngành sâu nói riêng gồm: Khoa học máy tính, Kỹ thuật máy tính, Kỹ thuật phần mềm, Mạng máy tính & truyền thông và Hệ thống thông tin. Trong đó cung cấp cho sinh viên biết trong mỗi ngành sẽ học những gì và ra trường sẽ làm được gì, làm ở đâu</p>
+
+        </div>
+        <!-- /Giới thiệu ngành-->
+
+        <!-- Nhập môn điện tử  -->
+
+        <div data-role="panel" id="nmdt" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung</p>
+            <p>- Trình bày các khải niệm, nguyên lý và phương pháp cơ bản về điện tử</p>
+            <p>- Giới thiệu về nguyên lý hoạt động của các linh kiện điện tử cơ bản: đặc tính, cách phân loại và cách kết nối các linh kiện trong mạch điện tử. Các linh kiện bao gồm: điện trở, tụ điện, cuộn dây, Transistor BJT, Transistor trường FET.</p>
+            <p>- Ứng dụng các linh kiện này vào mạch điện thực tế.</p>
+            <p>- Chi tiết gồm các phần:</p>
+            <p>+ Nguồn điện một chiều</p>
+            <p>+ Điện từ trường</p>
+            <p>+ Dòng điện xoay chiều</p>
+            <p>+ Điện trở, tụ điện, cuộn dây và biến áp</p>
+            <p>+ Chất bán dẫn và diod</p>
+            <p>+ Transistor</p>
+            <p>+ Transistor trường.</p>
+            <p>+ Mạch khuếch đại</p>
+        </div>
+        <!-- /Nhập môn điện tử -->
+        <!-- Lập trình hướng đối tượng  -->
+
+        <div data-role="panel" id="lthdt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Object Oriented Programming (OOP)</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Môn học này trình bày về lập trình hướng đối tượng với ngôn ngữ C++. Chương trình môn học gồm 2 phần cơ bản được chia thành 9 chương. Phần 1 bao gồm 4 chương đầu tiên giới thiệu về lập trình C++ cơ bản như: Kiểu dữ liệu, luồng điều khiển, hàm, tham số, chồng hàm, mảng, con trỏ và mảng động. Phần 2 gồm 5 chương tiếp theo trình bài về lập trình hướng đối tượng như: cấu trúc, lớp, constructor, destructor, overload, friend, reference, kế thừa, đa hàm, hàm ảo.
+            </p>
+
+        </div>
+        <!-- /Lập trình hướng đối tượng-->
+
+        <!-- Cấu trúc dữ liệu và giải thuật -->
+
+        <div data-role="panel" id="ctdl" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Data Structures and Algorithms</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: </p>
+            <p>Môn học này trình bày về cấu trúc dữ liệu và giải thuật, thiết kế các thuật toán, là môn học cơ sở cần thiết cho sinh viên công nghệ thông tin nói chung và theo hướng lập trình nói riêng.</p>
+            <p>
+                <li>Chương 1 trình bày về tổng quan về giải thuật và cấu trúc dữ liệu.</li>
+            </p>
+            <p>
+                <li>Chương 2 giới thiệu sơ lược về các thuật toán tìm kiếm và sắp xếp. </li>
+            </p>
+            <p>
+                <li>Chương 3 trình bày về cấu trúc dữ liệu động như con trỏ, danh sách liên kết. </li>
+            </p>
+            <p>
+                <li>Chương 4 trình bày về cấu trúc cây, các loại cây nhị phân.</li>
+            </p>
+
+        </div>
+        <!-- /Cấu trúc dữ liệu và giải thuật-->
+
+
+
+        <!-- Nhập môn mạch số  -->
+
+        <div data-role="panel" id="nmms" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to Digital Circuits</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Môn học này trình bày</p>
+            <p>- Các lý thuyết cơ sở về đại số logic</p>
+            <p>- Hệ thống số đếm và mã hóa</p>
+            <p>- Thiết kế và phân tích mạch tổ hợp</p>
+            <p>- Thiết kế các mạch số cơ bản</p>
+            <p>- Thiết kế và phân tích mạch tuần tự</p>
+            <p>- Thiết kế các bộ đếm.</p>
+
+        </div>
+        <!-- /Nhập môn mạch số-->
+        <!-- Giải tích 2 -->
+
+        <div data-role="panel" id="giaitich2" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung: Một số nội dung chính của môn học là</p>
+            <p>- Phép tính tích phân của hàm nhiều biến: tích phân kép, tích phân bội, tích phân đường, tích phân mặt.</p>
+            <p>- Phương trình vi phân cấp một, phương trình vi phân cấp hai, hệ phương trình vi phân.</p>
+
+        </div>
+        <!-- /Giải tích 2-->
+
+        <!--  Cơ sở dữ liệu -->
+
+        <div data-role="panel" id="csdl" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Fundamental Database</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Cung cấp các kiến thức về cơ sở dữ liệu như: khái niệm cơ bản về cơ sở dữ liệu quan hệ; Các phép toán đại số quan hệ; Ngôn ngữ SQL; Ngôn ngữ tân từ, Các ràng buộc toàn vẹn trên một sở dữ liệu; Quản trị bên trong cơ sở dữ liệu, môi trường khách/chủ</p>
+
+        </div>
+        <!-- / Cơ sở dữ liệu-->
+
+
+        <!--  Nhập môn mạng máy tính-->
+
+        <div data-role="panel" id="nmmmt" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Môn Mạng máy tính cung cấp những khái niệm tổng quan về mạng máy tính, bao gồm mô hình tham chiếu OSI, TCP/IP và các chuẩn mạng; những khái niệm, nguyên lý cơ bản về tín hiệu, truyền tín hiệu. Sinh viên được tìm hiễu sâu về mô hình TCP/IP như các giao thức trong các tầng đặc biệt là tầng mạng và tầng vận chuyển. Ngoài ra sinh viên cũng được làm quen với các dịch vụ mạng cơ bản, kỹ thuật mạng không dây và bảo mật mạng.</p>
+
+        </div>
+        <!-- / Nhập môn mạng máy tính-->
+
+        <!--  Kiến trúc máy tính -->
+
+        <div data-role="panel" id="ktmt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Computer Architecture</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung: Môn học này trình bày những kiến thức cơ bản về kiến trúc máy tính bao gồm lịch sử phát triển của máy tính, các thành phần cơ bản của một máy tính, các khái niệm cơ bản liên quan đến các hệ thống số được dùng trong máy tính, khái niệm về kiến trúc máy tính, tập lệnh, các kiểu kiến trúc máy tính, các kiểu định vị được dùng trong kiến trúc, phân biệt được hai loại kiến trúc CISC (Complex Instruction Set Computer) và RISC (Reduced Instruction Set Computer), cấu trúc của bộ xử lý trung tâm và diễn tiến thi hành một lệnh mã máy, các kiến thức về bộ nhớ, về đường truyền, giao tiếp giữa các bộ phận của máy tính.</p>
+
+        </div>
+        <!-- / Kiến trúc máy tính-->
+
+        <!--  Cấu trúc rời rạc-->
+
+        <div data-role="panel" id="ctrr" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Discrete Structures</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung: Cung cấp cho sinh viên những kiến thức cơ bản về</p>
+            <p>- Toán rời rạc : Cơ sở lôgic; Các phương pháp đếm; Quan hệ; Đại số Bool.</p>
+            <p>- Lý thuyết đồ thị: Các khái niệm cơ bản của lý thuyết đồ thị; Đồ thị và cây.</p>
+            <p>- Đồ thị và cây và một số khái niệm cơ bản của lý thuyết đồ thị .</p>
+
+        </div>
+        <!-- / Cấu trúc rời rạc-->
+
+        <!--  Xác suất thống kê -->
+
+        <div data-role="panel" id="xstk" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Trang bị cho sinh viên các kiến thức cơ bản về xác suất: các khái niệm cơ bản về xác suất, đại lượng ngẫu nhiên một chiều, đại lượng ngẫu nhiên nhiều chiều, một số phân phối xác suất. Phần thống kê: lý thuyết mẫu, ước lượng, kiểm định giả thiết thống kê, tương quan và hồi quy.</p>
+
+        </div>
+        <!-- / Xác suất thống kê-->
+
+        <!--  Hệ điều hành -->
+
+        <div data-role="panel" id="hdh" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Operating Systems</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Giới thiệu các khái niệm đi theo trình tự từ đơn giản đến phức tạp, môn học gồm có 9 chương ứng với cấu trúc máy tính từ đơn giản đến phức tạp. Sáu chương đầu giới thiệu các khái niệm cơ bản của một hệ điều hành. Ba chương sau là phần năng cao.
+            </p>
+
+        </div>
+        <!-- / Hệ điều hành-->
+
+        <!--  Kỹ năng nghề nghiệp -->
+
+        <div data-role="panel" id="knnn" data-position="left" data-display="push" data-theme="b">
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học cung cấp các kỹ năng hỗ trợ năng lực chuyên môn và nghề nghiệp trong lĩnh vực CNTT cần thiết cho sinh viên trường Đại học Công nghệ Thông tin. Trên cơ sở phương pháp luận tiếp cận hệ thống, nội dung môn học hướng sinh viên tới việc chủ động thực hiện quá trình học và tự học đại học và tốt nghiệp với phẩm chất đạo đức tốt, có kiến thức và kỹ năng chuyên môn đáp ứng yêu cầu làm việc của xã hội.</p>
+            <p>Các kiến thức cung cấp gồm:</p>
+            <p>- Kỹ năng đọc, nghe và ghi chép</p>
+            <p>- Kỹ năng đối thoại</p>
+            <p>- Kỹ năng tự học</p>
+            <p>- Kỹ năng làm việc nhóm</p>
+            <p>- Kỹ năng quan sát, nhận diện và giải quyết vấn đề</p>
+            <p>- Kỹ năng thuyết trình và điều khiển cuộc họp</p>
+            <p>- Kỹ năng tổ chức công việc</p>
+            <p>- Kỹ năng thực hành nghề nghiệp</p>
+            <p>- Kỹ năng soạn thảo văn bản, viết báo cáo</p>
+
+
+        </div>
+        <!-- / Hệ điều hành-->
+
+        <!--  Co so ha tang -->
+
+        <div data-role="panel" id="csht" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Information Technology Infrastructure</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học cung cấp một cái nhìn tổng quan về ngành Công nghệ Thông tin, các chủ đề phổ biến trong CNTT. Môn học mô tả mối quan hệ giữa CNTT với các ngành liên quan, môn học có tính khai tâm và giúp sinh viên nhận thức về CNTT. Ngoài ra môn học giúp sinh viên hiểu biết về các bối cảnh đa dạng mà trong đó CNTT sẽ được ứng dụng.</p>
+        </div>
+        <!-- / co so ha tang-->
+
+        <!--  Các công nghệ nền -->
+
+        <div data-role="panel" id="ccnn" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh:  Platform Technologies</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày những tri thức nền của phần cứng, phần mềm và các cách thức tích hợp giữa chúng để tạo nên những thành phần cần thiết của các hệ thống CNTT. Các tri thức này giúp các chuyên gia CNTT trong việc: chọn lựa, triển khai, tích hợp và quản trị những kĩ thuật để hỗ trợ cho các cơ sở hạ tầng CNTT.</p>
+            <p>Môn học trình bày các tri thức liên quan như: các hệ điều hành; các cơ sở hạ tầng tính toán; phần mềm dẻo (firmware); phần cứng; triển khai phần mềm doanh nghiệp.</p>
+        </div>
+        <!-- / Các công nghệ nền -->
+
+        <!--  Quản lý thông tin-->
+
+        <div data-role="panel" id="qltt" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Information Management</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày các kiến thức liên quan đến việc: thu thập, tổ chức, mô hình, chuyển đổi, trình bày, an toàn và an ninh của dữ liệu và thông tin. Các kiến thức này giúp các chuyên gia CNTT trong việc quản lý, tích hợp, phát triển dữ liệu và thông tin cho các tổ chức.</p>
+            <p>Môn học trình bày các tri thức liên quan như: cơ sở hạ tầng, các quan điểm về quản lý thông tin; các ngôn ngữ truy vấn CSDL; kiến trúc tổ chức dữ liệu; mô hình hóa dữ liệu; quản lý môi trường CSDL; các CSDL đặc biệt.</p>
+        </div>
+        <!-- / Quản lý thông tin -->
+
+
+        <!-- Internet và công nghệ Web -->
+
+        <div data-role="panel" id="ivcnweb" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Internet and Web Technology</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Các ứng dụng CNTT ngày càng phát triển trên Web. Môn học này cung cấp kiến thức về công nghệ Web thông qua việc giới thiệu về hệ thống, tổ chức, xây dựng, và sử dụng các hệ thống và ứng dụng trên Web. Hai mảng kiến thức chính là: kiến thức chung về Internet và Web, và kiến thức và kỹ năng xây dựng ứng dụng Web.</p>
+            <p>Các chủ đề chính bao gồm: giao thức HTTP, Web markups, lập trình client và server, Web services; XHMTL, XML, SVG, CSS, Javascript; hosting, sử dụng và chia sẻ thông tin trên Internet, tìm kiếm và hỗ trợ nghiên cứu thông qua Web, vấn đề bản quyền và sử dụng Web an toàn, cùng một số chủ đề mở rộng như các dạng dữ liệu đa phương tiện trên Web, giao diện người dùng Web, Web 2.0 và Web ngữ nghĩa (Web 3.0).</p>
+        </div>
+        <!-- / Internet và công nghệ Web -->
+
+        <!-- Nhập môn bảo đảm và an ninh thông tin-->
+
+        <div data-role="panel" id="anttin" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Introduction to Information Assurance and Security</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn Nhập môn bảo đảm và an ninh thông tin gồm các nội dung cơ bản như sau:</p>
+            <p>- Tổng quan về các nguyên tắc an ninh Mạng máy tính.</p>
+            <p>- Xây dựng một tổ chức an toàn, quyền truy cập và kiểm soát truy cập.</p>
+            <p>- Phương thức ngăn chặn việc tấn công hệ thống, bảo vệ chống lại việc tấn công Botnet, các vấn đề bảo vệ hệ thống mạng chống phần mềm độc hại, an ninh mạng Windows và Unix / Linux, bảo mật mạng truyền dẫn; bảo mật mạng LAN, mạng không dây và mạng di động.</p>
+        </div>
+        <!-- /  Nhập môn bảo đảm và an ninh thông tin -->
+
+        <!-- Thiết kế giao diện người dùng-->
+
+        <div data-role="panel" id="tkgdnd" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: User Interface Design</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học này cung cấp các kiến thức cơ bản như: vấn đề khả dụng của các hệ thống tương tác, các nguyên tắc quan trọng của thiết kế giao diện người dùng, quá trình thiết kế giao diện, đánh giá thiết kế giao diện; bên cạnh việc giới thiệu một số dạng kỹ thuật thiết kế liên quan đến thực đơn, form fill-in, hộp hội thoại, tài liệu người dùng, giao diện tìm kiếm, mối liên hệ giữa giao diện người dùng với trực quan thông tin; cũng như giới thiệu sơ về các mảng công nghệ mới.</p>
+        </div>
+        <!-- /  Thiết kế giao diện người dùng -->
+
+        <!--     Phát triển ứng dụng web-->
+
+        <div data-role="panel" id="ptudweb" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Web application development with open sources</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p> Cung cấp cho sinh viên những kiến thức, kỹ năng, phương pháp lập trình web động với ngôn ngữ lập trình PHP và trình quản trị cơ sở dữ liệu MySQL (ngôn ngữ lập trình mã nguồn mở được sử dụng rộng rãi trên thế giới); kỹ thuật lập trình Ajax trong PHP; một số Framework hỗ trợ viết web bằng PHP. Thiết kế và triển khai các ứng dụng web trong thực tế bằng ngôn ngữ lập trình web PHP, vận hành và bảo trì website.</p>
+        </div>
+        <!-- /   Phát triển ứng dụng web -->
+
+        <!--      Khai thác dữ liệu-->
+
+        <div data-role="panel" id="ktdl" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh:  Data Mining</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Cung cấp các kiến thức về việc khai thác tri thức tiềm ẩn trong các CSDL. Học viên được học các kiến thức về quy trình khai thác tri thức, bài toán tập phổ biến và luật kết hợp, bài toán chuỗi tuần tự, bài toán phân lớp, bài toán gom cụm và các ứng dụng của khai thác dữ liệu vào thực tiễn.</p>
+        </div>
+        <!-- /    Khai thác dữ liệu -->
+
+        <!--  Đồ án chuẩn bị tốt nghiệp-->
+
+        <div data-role="panel" id="doan-tt" data-position="left" data-display="push" data-theme="b">
+            <p>Sinh viên phải học môn Đồ án chuẩn bị tốt nghiệp (2 tín chỉ) và chọn một trong hai hình thức sau để hoàn thành khối kiến thức tốt nghiệp:</p>
+            <p>
+                <li>Hình thức 1: Thực hiện Khóa luận tốt nghiệp (10 tín chỉ).</li>
+            </p>
+            <p>
+                <li>Hình thức 2: Học các môn học chuyên đề tốt nghiệp thay thế cho khóa luận tốt nghiệp để tích lũy tối thiểu 10 tín chỉ.</li>
+            </p>
+            <p>(Xem chi tiết ở học kỳ 8)</p>
+
+        </div>
+        <!-- /   Đồ án chuẩn bị tốt nghiệp -->
+
+
+        <!-- totnghiep -->
+
+        <div data-role="panel" id="totnghiep" data-position="left" data-display="push" data-theme="b">
+            <p>Sinh viên đủ điều kiện làm Khóa luận tốt nghiệp theo qui chế của trường mới có thể đăng ký làm Khóa luận tốt nghiệp.</p>
+            <p>Hoặc học qua 3 môn chuyên đề thay thế (tín chỉ tích lũy tối thiểu là 10)</p>
+        </div>
+        <!-- / totnghiep -->
+
+        <!-- Tư tưởng Hồ Chí Minh -->
+
+        <div data-role="panel" id="tthcm" data-position="left" data-display="push" data-theme="b">
+            <h3>Tên môn tiếng Anh: Ho Chi Minh Ideology</h3>
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Ngoài chương mở đầu, nội dung môn học gồm 7 chương: chương 1, trình bày về cơ sở, quá trình hình thành và phát triển tư tưởng Hồ Chí Minh; từ chương 2 đến chương 7 trình bày những nội dung cơ bản của Tư tưởng Hồ Chí Minh theo mục tiêu môn học.
+            </p>
+        </div>
+        <!-- /  Tư tưởng Hồ Chí Minh -->
+
+        <!-- đang cập nhật  -->
+
+        <div data-role="panel" id="dangcapnhat" data-position="left" data-display="push" data-theme="b">
+            <p>Đang cập nhật ...</p>
+        </div>
+        <!-- /đang cập nhật -->
+
+        <div data-role="footer" data-position="fixed" data-theme="b">
+        </div>
+    </div>
+    <!-- He thong thong tin_page-->
+
+    <!--  Tự chọn-->
+    <div id="chuyennganhtuchon-1" data-role="page" data-dialog="true" data-quicklinks="true">
+        <div data-role="header" data-theme="b">
+            <h1>Công Nghệ</h1>
+        </div>
+        <div role="content" class="ui-content">
+            <h3>Nhóm các môn học tự chọn</h3>
+            <p>Số tín chỉ: tổng số tín chỉ tích lũy tối thiểu là 28.</p>
+
+            <table border="1" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+                        <td width="113">
+                            <p align="center"><strong>Mã môn học</strong></p>
+                        </td>
+                        <td width="181">
+                            <p align="center"><strong>Tên môn học</strong></p>
+                        </td>
+                        <td width="48">
+                            <p align="center"><strong>LT</strong></p>
+                        </td>
+                        <td width="48">
+                            <p align="center"><strong>TH</strong></p>
+                        </td>
+                        <td valign="top" width="139">
+                            <p align="center"><strong>Ghi chú</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="113">
+                            <p align="center">IS211</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#csdlpt">Cơ sở dữ liệu phân tán</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">1</p>
+                        </td>
+                        <td rowspan="2" width="139">
+                            <p>Hướng ứng dụng CNTT phân tích định lượng doanh nghiệp</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="113">
+                            <p align="center">IS105</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#oracle">Hệ quản trị Cơ sở dữ liệu Oracle</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE301</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#crmmm">Quản trị quan hệ khách hàng (CRM)</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">0</p>
+                        </td>
+                        <td rowspan="2" width="139">
+                            <p>Hướng ứng dụng CNTT quản lý, giám sát hoạt động doanh nghiệp</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE302</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#ktth">Kiến trúc và tích hợp hệ thống</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">NT118</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#didong">Phát triển ứng dụng trên thiết bị di động</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">2</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">1</p>
+                        </td>
+                        <td rowspan="3" width="139">
+                            <p>Hướng ứng dụng truyền thông xã hội và công nghệ Web</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE303</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#cnjava">Công nghệ Java</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">SE401</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#mtk">Mẫu thiết kế</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE304</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#gps">Hệ thống định vị toàn cầu</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">0</p>
+                        </td>
+                        <td rowspan="3" width="139">
+                            <p>Hướng ứng dụng CNTT vào Tài nguyên - Môi trường, Địa lý</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE305</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#thmt">Tin học môi trường</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">2</p>
+                        </td>
+                        <td valign="top" width="48">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS201</p>
+                        </td>
+                        <td width="181">
+                            <p><a href="#pttkhttt">Phân tích thiết kế hệ thống thông tin</a></p>
+                        </td>
+
+                        <td width="48">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="48">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td colspan="5" width="439">
+                            <p>Và các môn học khác theo đề nghị của Khoa</p>
+                        </td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <!--     Cơ sở dữ liệu phân tán -->
+
+        <div data-role="panel" id="csdlpt" data-position="left" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Distributed databases</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Cung cấp những kiến thức cơ bản về nguyên lý các hệ cơ sở dữ liệu phân tán. Môn học bao gồm các nội dung về các chiến lược thiết kế và kiểm soát dữ liệu. Lý thuyết phân mảnh không tổn thất thông tin và bài toán cấp phát dữ liệu phân tán trên mạng máy tính. Vấn đề về quản lý giao dịch, đặc trưng và các tính chất giao dịch. Vấn đề tương tranh và hiệu năng xử lý phân tán và cách triển khai CSDL phân tán bằng Oracle</p>
+        </div>
+        <!-- /   Cơ sở dữ liệu phân tán -->
+
+        <!--     Hệ quản trị cơ sở dữ liệu Oracle -->
+
+        <div data-role="panel" id="oracle" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Oracle Database Manegment System</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Trang bị cho sinh viên các kiến thức cơ bản về quản trị một hệ thống cơ sở dữ liệu bao gồm việc quản trị người dùng, cơ chế phân quyền, quản trị cơ sở dữ liệu, ngôn ngữ lập trình thủ tục (PL/SQL), cơ chế hoạt động của Oracle DBMS, kiến trúc Oracle, các kiến thức về sao lưu, phục hồi dữ liệu. Khối kiến thức của môn học này đóng vai trò quan trọng giúp cho sinh viên sau khi ra trường có thể làm việc với vai trò của người quản trị hệ thống DBMS, người thiết kế, lập trình các ứng dụng cơ sở dữ liệu trong các công ty, xí nghiệp có sử dụng Oracle database server.</p>
+        </div>
+        <!-- /  Hệ quản trị cơ sở dữ liệu Oracle -->
+
+        <!--    Quản trị quan hệ khách hàng (CRM) -->
+
+        <div data-role="panel" id="crmmm" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Customer Relationship Management</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học này giúp người học nghiên cứu tổng thể toàn bộ các khía cạnh của quản trị quan hệ khách hàng (CRM): chiến lược, tổ chức, marketing và công nghệ thông tin. Qua môn học này, người học sẽ trả lời được các câu hỏi: Chúng ta muốn đạt được gì thông qua CRM? Đạt được như thế nào? Chiến lược kinh doanh của chúng ta để phù hợp với CRM là gì? Làm thế nào được chuyển tải được chiến lược CRM vào marketing? Làm thế nào để xây dựng và ứng dụng CRM vào trong thực tế? Bên cạnh đó, nó còn giúp người học biết và hiểu các kiến thức cơ bản về việc tổ chức và điều hành các hoạt động chăm sóc khách hàng. Cụ thể, môn học này trang bị cho người học các kiến thức cơ bản về vai trò và tầm quan trọng của quản trị quan hệ khách hàng, chiến lược quan hệ khách hàng, quản trị cơ sở dữ liệu khách hàng, quản trị xung đột và duy trì sự hài lòng của khách hàng. Môn học cũng cung cấp kiến thức về kiểm tra đánh giá và điều chỉnh hoạt động quản trị quan hệ khách hàng.</p>
+        </div>
+        <!-- /  Quản trị quan hệ khách hàng (CRM) -->
+
+        <!--  Kiến trúc và tích hợp hệ thống) -->
+
+        <div data-role="panel" id="ktth" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: System Integration and Architecture</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày các kiến thức liên quan đến các kỹ năng thu thập yêu cầu, tìm nguồn cung ứng, đánh giá và tích hợp các thành phần vào một hệ thống duy nhất. Nó cũng bao gồm các nguyên tắc cơ bản của quản lý dự án và sự tương tác giữa các ứng dụng CNTT với các quy trình của tổ chức.</p>
+            <p>Môn học trình bày các tri thức như: quản lý dự án; kiểm định và đảm bảo chất lượng; tích hợp và phát triển hệ thống; tìm nguồn cung ứng.</p>
+        </div>
+        <!-- /  Kiến trúc và tích hợp hệ thống -->
+
+        <!--      Kho dữ liệu và OLAP-->
+
+        <div data-role="panel" id="didong" data-position="left" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Phát triển ứng dụng trên thiết bị di động</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học bao gồm các mô hình phát triển ứng dụng di động trên Google Android. Sinh viên sẽ được học việc triển khai thiết kế giao diện hiệu quả cho các thiết bị di động hiện đại. Sinh viên sẽ bắt đầu bằng cách sử dụng mô phỏng trước khi cài đặt đến các thiết bị thực tế. Sinh viên được cung cấp kiến thức để xây dựng ứng dụng Native app lẫn cross platform app. Trong ứng dụng native app, sinh viên sử dụng ngôn ngữ lập trình Java để thể hiện chương trình trên Android. · Trong ứng dụng Native app, sinh viên sử dụng HTML và CSS để xây dựng ứng dụng đáp ứng trên mọi thiết bị, sử dụng JavaScript để tạo ra một ứng dụng chuyển tiếp, liên lạc và swipe, hình ảnh động. Trong khóa học, sinh viên sẽ được khuyến khích để tích hợp các dịch vụ web hiện có từ Google và Amazon như là một phần của ứng dụng của họ. · Thông qua lý thuyết và thực hành, sinh viên có khả năng thu thập chứng cứ tại máy tính cá nhân cũng như tại nơi xảy ra sự cố bằng cách sử dụng các công cụ thu thập dữ liệu. Các nội dung bao gồm: · Giới thiệu về tính toán di động khắp mọi nơi, tính toán cảm ngữ cảnh, giới thiệu hệ điều hành Android và các phương pháp lập trình trên Android. Các phương pháp lập trình nâng cao: đa luồng, đa hành vi, kết nối SQLite, Web Services. · Khái niệm cross platform, thiết kế web di động, ứng dụng cho Điện thoại di động. Đánh dấu cho điện thoại di động. Web Apps di động và tính năng thiết bị từ Web Apps. Giới thiệu PhoneGap. Bản địa hóa ứng dụng.</p>
+        </div>
+        <!-- /   Kho dữ liệu và OLAP -->
+
+
+        <!--  Công nghệ Java -->
+
+        <div data-role="panel" id="cnjava" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Java Technology</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học được thiết kế đặc biệt chú trọng vào việc giúp sinh viên hiểu biết nắm vững kiến thức nền tảng về Công nghệ Java. Đồng thời làm chủ các công nghệ như: Java SE, Servlet, JSP, Enterprise Java Beans…. Để hướng đến mục tiêu xây dựng những Enterprise applications một cách chuyên nghiệp.</p>
+        </div>
+        <!-- /  Công nghệ Java -->
+
+        <!--     Mẫu thiết kế-->
+
+        <div data-role="panel" id="mtk" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Design Pattern</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày các mẫu thiết kế hiện đang được sử dụng trong phát triển hệ thống phần mềm, đưa ra các kiến trúc để có thể sử dụng linh hoạt các mẫu thiệt kế vào việc phát triển phân mềm với các giải pháp khác nhau.</p>
+        </div>
+        <!-- /  Mẫu thiết kế -->
+
+        <!--    Hệ thống định vị toàn cầu (GPS)-->
+
+        <div data-role="panel" id="gps" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Global Positioning System (GPS)</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Sự ra đời của nhiều loại phương tiện tiên tiến như máy bay, tàu vũ trụ đòi hỏi một kỹ thuật mà các hệ thống cũ không thể đáp ứng được đó là định vị trong không gian 3 chiều, và như vậy hệ thống định vị toàn cầu GPS (Global Positioning System) ra đời. Mục đích của môn học cung cấp một cái nhìn tổng quan toàn diện từ các chức năng hệ thống GPS đến các ứng dụng. Môn học trang bị cho sinh viên các kiến thức về các hệ thống vệ tinh định vị với sự chú trọng trên GPS từ cơ sở toạ độ sử dụng, kiến thức về quĩ đạo vệ tinh, tín hiệu truyền từ vệ tinh, các thiết bị phần cứng - phần mềm GPS, và sự tác động của môi trường truyền sóng vào độ chính xác định vị.</p>
+        </div>
+        <!-- / Hệ thống định vị toàn cầu (GPS) -->
+
+        <!--   Tin học môi trường-->
+
+        <div data-role="panel" id="thmt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Environmental Informatics</h3>
+            <h3>Số tín chỉ: 2</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Để xây dựng được hệ thống quản lý rủi ro môi trường, sinh viên sẽ được trang bị những kiến thức cơ bản về rủi ro môi trường và giải pháp công nghệ trong việc xây dựng hệ thống quản lý dữ liệu môi trường như thành lập các bản đồ rủi ro môi trường, xây dựng phần mềm tích hợp GIS (Application GIS, Web GIS, Mobile GIS), phân tích và khai thác dữ liệu không gian phục vụ việc ra quyết định của các nhà quản lý.</p>
+            <p>Sinh viên sẽ được định hướng và chọn lựa một hướng nghiên cứu chuyên sâu để xây dựng hệ thống quản lý rủi ro môi trường.</p>
+        </div>
+        <!-- /  Tin học môi trường -->
+
+
+        <!--  Phân tích thiết kế hệ thống thông tin -->
+
+        <div data-role="panel" id="pttkhttt" data-position="left" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Information System Analysis and Design</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Tóm tắt nội dung: Phân tích và thiết kế hệ thống chuyên nghiệp. Vai trò của người thiết kế. Những phương pháp phát triển hệ thống. Phân tích các yêu cầu. Sử dụng các công cụ phần mềm do máy tính hỗ trợ (Computer-Aided Software Engineering tools - CASE). Mô hình dữ liệu, mô hình xử lý và các đối tượng. Những chủ đề khác bao gồm: thiết kế mức vật lý, thiết kế giao diện và quản trị dự án.</p>
+        </div>
+        <!-- / Phân tích thiết kế hệ thống thông tin -->
+
+    </div>
+
+    <!--  Tự chọn-->
+    <div id="chuyennganhtuchon-chitiet" data-role="page" data-dialog="true" data-quicklinks="true">
+        <div data-role="header" data-theme="b">
+            <h1>Công Nghệ</h1>
+        </div>
+        <div role="content" class="ui-content">
+            <h3>Chi tiết chuyên ngành có định hướng</h3>
+            <h5><a name="">Hướng phân tích định lượng doanh nghiệp</a></h5>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center"><strong>Mã môn học</strong></p>
+                        </td>
+                        <td width="293">
+                            <p align="center"><strong>Tên môn học</strong></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center"><strong>LT</strong></p>
+                        </td>
+                        <td width="57">
+                            <p align="center"><strong>TH</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE201</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#xltk">Xử lý dữ liệu thống kê</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS252</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#ktdl">Khai thác dữ liệu</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS217</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#olap">Kho dữ liệu và OLAP</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE202</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#hhtqd">Hệ hỗ trợ ra quyết định</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5><a name="">Hướng quản lý, giám sát hoạt động doanh nghiệp</a></h5>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center"><strong>Mã môn học</strong></p>
+                        </td>
+                        <td width="293">
+                            <p align="center"><strong>Tên môn học</strong></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center"><strong>LT</strong></p>
+                        </td>
+                        <td width="57">
+                            <p align="center"><strong>TH</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE203</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#qtdng">Quản trị doanh nghiệp</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE204</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#qtngv">Hệ thống quản trị qui trình nghiệp vụ</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS208</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#qldncntt">Quản lý dự án công nghệ thông tin</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS336</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#erp">Hoạch định tài nguyên doanh nghiệp</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5><a name="">Hướng ứng dụng truyền thông xã hội và công nghệ Web</a></h5>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center"><strong>Mã môn học</strong></p>
+                        </td>
+                        <td width="293">
+                            <p align="center"><strong>Tên môn học</strong></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center"><strong>LT</strong></p>
+                        </td>
+                        <td width="57">
+                            <p align="center"><strong>TH</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE205</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#seo">Tối ưu hóa công cụ tìm kiếm (SEO)</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS207</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#ptudweb">Phát triển ứng dụng Web</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS353</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#mxh">Mạng xã hội</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS334</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#tmdt">Thương mại điện tử</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5><a name="">Hướng vào Tài nguyên - Môi trường, địa lý</a></h5>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center"><strong>Mã môn học</strong></p>
+                        </td>
+                        <td width="293">
+                            <p align="center"><strong>Tên môn học</strong></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center"><strong>LT</strong></p>
+                        </td>
+                        <td width="57">
+                            <p align="center"><strong>TH</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS251</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#ttdialy">Nhập môn hệ thống thông tin địa lý</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS352</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#hcsdlkg">Hệ cơ sở dữ liệu không gian</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS351</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#ptkg">Phân tích không gian</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE206</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#vetinh">Xử lý ảnh vệ tinh</a></p>
+                        </td>
+
+                        <td valign="top" width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td valign="top" width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+
+        <!--   Xử lý ảnh vệ tinh -->
+
+        <div data-role="panel" id="vetinh" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Satellite Image Processing</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học bao gồm: tổng quát về quá trình thu thập, xử lý dữ liệu và hệ thống xử lý dữ liệu ảnh vệ tinh; khảo sát các thành phần chủ yếu trong xử lý ảnh số bao gồm hiệu chỉnh bức xạ, nắm chỉnh hình học, tăng cường chất lượng ảnh, phân loại ảnh; và ứng dụng các kỹ thuật xử lý ảnh trong phát hiện biến động.</p>
+        </div>
+        <!-- /  Xử lý ảnh vệ tinh -->
+
+
+        <!--     Phân tích không gian -->
+
+        <div data-role="panel" id="ptkg" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:   Spatial Analysis</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p> Phân tích không gian là một chức năng quan trọng của GIS trong tiến trình khai thác hệ thống thông tin địa lý. Môn học sẽ cung cấp những thuật toán xử lý phân tích dữ liệu của các đối tượng, các hiện tượng, các sự kiện theo không gian và thời gian. Những thuật toán phân tích không gian có thể áp dụng trên một lớp dữ liệu, hoặc trên nhiều lớp dữ liệu tích hợp, bao gồm những thuật toán phân tích các đối tượng điểm, phân tích theo bề mặt, hoặc phân tích mạng trong cấu trúc dữ liệu vector. Ngoài ra môn học cũng cung cấp những thuật toán xử lý dữ liệu có cấu trúc raster gọi là phân tích lưới và giới thiệu các phương pháp nội suy khác nhau.</p>
+        </div>
+        <!-- /  Phân tích không gian -->
+
+        <!--    Hệ cơ sở dữ liệu không gian -->
+
+        <div data-role="panel" id="hcsdlkg" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Spatial Database Systems</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>cung cấp các mô hình quản trị cơ sở dữ liệu không gian truyền thống như data files trong các hệ thống GIS, mô hình cơ sở dữ liệu geodatabase, nghiên cứu kiến trúc cơ sở dữ liệu 3 tầng (3-tier) trong các hệ thống thông tin địa lý nhiều người dùng (collaborative GIS), hệ thống chuyên nghiệp (enterprise GIS), kiến trúc mạng GIS</p>
+        </div>
+        <!-- /  Hệ cơ sở dữ liệu không gian -->
+
+
+        <!--     Nhập môn Hệ thống thông tin địa lý -->
+
+        <div data-role="panel" id="ttdialy" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Intro. to Geographic Information Systems</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>cung cấp những khái niệm, mô hình của một hệ thống thông tin địa lý, tiến trình hình thành và phát triển khoa học thông tin địa lý, phương pháp luận biểu diễn đối tượng không gian như là một thành phần của dữ liệu GIS liên kết với thành phần khác trong hệ cơ sở dữ liệu GIS là dữ liệu thuộc tính. Môn học cũng xác định các hướng hoạt động của GIS là nghiên cứu phát triển hệ thống thông tin địa lý GIS và phát triển những ứng dụng sử dụng hệ thống thông tin địa lý (GIS) trong các lĩnh vực quản lý tài nguyên, môi trường, sử dụng đất, cơ sở hạ tầng kỹ thuật, kinh tế – xã hội</p>
+        </div>
+        <!-- /  Nhập môn Hệ thống thông tin địa lý -->
+
+        <!--       Thương mại điện tử -->
+
+        <div data-role="panel" id="tmdt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  E-commerce</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>cung cấp các khái niệm cơ bản về thương mại điện tử và việc sử dụng CNTT để phát triển các ứng dụng thương mại điện tử. Bao gồm các mô hình kinh doanh thương mại điện tử, khách hàng trên Internet, E-Marketing, E-payment, thiết kế website thương mại điện tử.</p>
+        </div>
+        <!-- /    Thương mại điện tử-->
+
+        <!--   Mạng xã hội -->
+
+        <div data-role="panel" id="mxh" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Social network</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Khóa học nhằm mục đích giới thiệu sinh viên phân tích mạng xã hội trên cả hai mạng lưới tĩnh và động. Nửa đầu của khóa học sẽ giới thiệu các sinh viên làm thế nào để phân tích một mạng tĩnh bằng cách sử dụng số liệu và ý nghĩa của các kết quả thu được dựa trên sự phân tích này. Nửa sau của khóa học sẽ tập trung vào phân tích mạng lưới động. Mô hình mạng lưới ngẫu nhiên và các số liệu thống kê sẽ được nêu rõ. Việc hình thành mạng lưới chiến lược cũng sẽ được giới thiệu. Mạng được hình thành là một trong những đề tài nghiên cứu phổ biến nhất trong phân tích mạng xã hội (social network analysis - SNA). Hình thành lý thuyết trò chơi (mạng) để giải quyết các vấn đề như cân bằng, ổn định, thương lượng, chuyển giao, phối hợp lựa chọn và thích ứng với những thay đổi mạng. Sử dụng phần mềm Pajek giúp các sinh viên đo và hiển thị dữ liệu mạng. Sinh viên sẽ thực hành sử dụng phần mềm này qua các bài tập.</p>
+        </div>
+        <!-- /  Mạng xã hội-->
+
+        <!--     Phát triển ứng dụng web-->
+
+        <div data-role="panel" id="ptudweb" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Web application development with open sources</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p> Cung cấp cho sinh viên những kiến thức, kỹ năng, phương pháp lập trình web động với ngôn ngữ lập trình PHP và trình quản trị cơ sở dữ liệu MySQL (ngôn ngữ lập trình mã nguồn mở được sử dụng rộng rãi trên thế giới); kỹ thuật lập trình Ajax trong PHP; một số Framework hỗ trợ viết web bằng PHP. Thiết kế và triển khai các ứng dụng web trong thực tế bằng ngôn ngữ lập trình web PHP, vận hành và bảo trì website.</p>
+        </div>
+        <!-- /   Phát triển ứng dụng web -->
+
+        <!--  Tối ưu hóa công cụ tìm kiếm-->
+
+        <div data-role="panel" id="seo" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Search Engine Optimization (SEO)</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Tối ưu hóa công cụ tìm kiếm là một tập hợp các phương pháp nhằm nâng cao thứ hạng của một website trong các trang kết quả của các công cụ tìm kiếm và có thể được coi là một lĩnh vực nhỏ của tiếp thị số.</p>
+            <p>Các công cụ tìm kiếm hiển thị một số dạng danh sách trong trang kết quả tìm kiếm (SERP) bao gồm danh sách quảng cáo trả tiền theo click và danh sách kết quả tìm kiếm.</p>
+        </div>
+        <!-- / Tối ưu hóa công cụ tìm kiếm-->
+
+
+        <!--   Hoạch định nguồn lực doanh nghiệp-->
+
+        <div data-role="panel" id="erp" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Enterprise Resource Planning</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Cung cấp cho sinh viên các kiến thức cơ bản về một hệ thống ERP. Các thành phần chính của ERP cũng được giới thiệu trong môn học này. Thông qua đó, sinh viên có thể nhận thấy được tầm quan trọng của ERP, điều kiện để triển khai về nền tảng công nghệ cũng như về qui mô và phạm vi hoạt động của các tổ chức/doanh nghiệp.</p>
+        </div>
+        <!-- /  Hoạch định nguồn lực doanh nghiệp -->
+
+
+        <!--   Xử lý dữ liệu thống kê-->
+
+        <div data-role="panel" id="xltk" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Analysis of Statistical Data</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học nhằm trình bày những phương pháp sơ cấp cơ bản để xử lý, mô tả, phân tích, phán đoán, các dữ liệu thống kê, cùng với cơ sở lí luận xác suất của các phương pháp đó.</p>
+        </div>
+        <!-- /  Xử lý dữ liệu thống kê-->
+
+        <!--      Khai thác dữ liệu-->
+
+        <div data-role="panel" id="ktdl" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Data Mining</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Cung cấp các kiến thức về việc khai thác tri thức tiềm ẩn trong các CSDL. Học viên được học các kiến thức về quy trình khai thác tri thức, bài toán tập phổ biến và luật kết hợp, bài toán chuỗi tuần tự, bài toán phân lớp, bài toán gom cụm và các ứng dụng của khai thác dữ liệu vào thực tiễn.</p>
+        </div>
+        <!-- /    Khai thác dữ liệu -->
+
+        <!--      Kho dữ liệu và OLAP-->
+
+        <div data-role="panel" id="olap" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Data warehouse and OLAP</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày các khái niệm nền tảng về Kho dữ liệu, những đặc tính và kiến trúc cũng như cách tổ chức kho dữ liệu, các ứng dụng thực tế của kho dữ liệu và công cụ phân tích trực tuyến OLAP. Trong đó, bao gồm các vấn đề liên quan đến việc hoạch định, thiết kế, xây dựng, khai thác và bảo trì kho dữ liệu; CSDL đa chiều và các mô hình dữ liệu đa chiều (luận lý và logic), ngôn ngữ truy vấn cơ sở dữ liệu đa chiều (MDX).</p>
+        </div>
+        <!-- /   Kho dữ liệu và OLAP -->
+
+        <!--     Hệ thống thông tin kế toán -->
+
+        <div data-role="panel" id="hhtqd" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Decision-sypport systems</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Giới thiệu nội dung các giai đoạn trong quá trình ra quyết định, kiến trúc các thành phần của hệ hỗ trợ ra quyết định, các dạng mô hình áp dụng trong các hệ hỗ trợ ra quyết dịnh, phương pháp thiết kế, xây dựng các thành phần của hệ hỗ trợ ra quyết định, qui trình triển khai xây dựng hệ hỗ trợ ra quyết định trong thực tế. Giới thiệu một số hệ hỗ trợ ra quyết định trong thực tế: chuẩn đoán bệnh, dự báo, lập kế hoạch sản xuất...</p>
+        </div>
+        <!-- /   Hệ thống thông tin kế toán -->
+
+        <!-- Quản trị doanh nghiệp -->
+
+        <div data-role="panel" id="qtdng" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Business Management</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Cung cấp cho sinh viên những kiến thức cơ bản về quản trị kinh doanh; một số các bộ môn cơ bản của lĩnh vực quản trị học; và kiến thức cơ bản về áp dụng HTTT trong quản lý doanh nghiệp.</p>
+        </div>
+        <!-- /  Quản trị doanh nghiệp -->
+
+
+        <!-- Quản trị doanh nghiệp -->
+
+        <div data-role="panel" id="qtngv" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Bussiness Process Management Systems</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Giải pháp BPM có mối quan hệ chặt chẽ đến 2 lĩnh vực: Công nghệ thông tin và Quản lý. Xét về mặt quản lý, đây là cách tiếp cận có hệ thống nhằm giúp các tổ chức tiêu chuẩn hóa và tối ưu hóa các quy trình hoạt động với mục đích giảm chi phí, tăng chất lượng hoạt động nhằm đạt được các mục tiêu cần thiết. Về mặt công nghệ, BPM là một bộ công cụ giúp các tổ chức thiết kế, mô hình hóa, triển khai, giám sát, vận hành và cải tiến các quy trình nghiệp vụ một cách linh hoạt.</p>
+            <p>Môn học trang bị các kiến thức cơ bản về quy trình nghiệp vụ, mô hình hóa quy trình, Business Process Modeling Notation - BPMN; kỹ năng mô hình hoá quy trình; kỹ năng xây dựng ứng dụng quản lý điều hành theo các quy trình đã được mô hình hóa cho các tổ chức, doanh nghiệp.</p>
+        </div>
+        <!-- /  Quản trị doanh nghiệp -->
+
+
+
+        <!--    Quản lý dự án Công nghệ thông tin-->
+
+        <div data-role="panel" id="qldncntt" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Information Technology Project Management</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Trình bày các khía cạnh quan trọng để triển khai thành công một đề án công nghệ thông tin bao gồm hành vi, chiến lược, kỹ thuật, định lượng, truyền thông. Cung cấp cho sinh viên các kiến thức liên quan đến việc quản lý và thực hiện dự án Công nghệ thông tin đồng thời đề cập tới những yêu cầu kỹ năng của người quản lý dự án so với yêu cầu quản lý kỹ thuật.</p>
+        </div>
+        <!-- /  Quản lý dự án Công nghệ thông tin -->
+
+    </div>
+
+    <!--  Tự chọn-->
+    <div id="totnghiep2" data-role="page" data-dialog="true" data-quicklinks="true">
+        <div data-role="header" data-theme="b">
+            <h1>Công Nghệ</h1>
+        </div>
+        <div role="content" class="ui-content">
+            <h3>Chuyên đề tốt nghiệp</h3>
+            <h5>Số tín chỉ: Sinh viên tự chọn các môn học trong bảng sau để tích lũy tối thiểu 10.</h5>
+            <p>- Bắt buộc đối với sinh viên không đủ điều kiện làm Khóa luận tốt nghiệp.</p>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                <tbody>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center"><strong>Mã môn học</strong></p>
+                        </td>
+                        <td width="293">
+                            <p align="center"><strong>Tên môn học</strong></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center"><strong>LT</strong></p>
+                        </td>
+                        <td width="57">
+                            <p align="center"><strong>TH</strong></p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS402</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#dammay">Điện toán đám mây</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IS405</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#dll">Dữ liệu lớn</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE401</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#tinsinh">Tin-Sinh học</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE402</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#3chieu">Hệ thống thông tin địa lý 3 chiều</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">2</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">1</p>
+                        </td>
+                    </tr>
+                    <tr>
+
+                        <td width="113">
+                            <p align="center">IE403</p>
+                        </td>
+                        <td width="293">
+                            <p><a href="#cp">Khai phá truyền thông xã hội</a></p>
+                        </td>
+
+                        <td width="57">
+                            <p align="center">3</p>
+                        </td>
+                        <td width="57">
+                            <p align="center">0</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" width="624">
+                            <p><strong>Và các chuyên đề khác theo đề nghị của Khoa</strong></p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+        </div>
+        <!--  Hệ thống thông tin địa lý 3 chiều -->
+
+        <div data-role="panel" id="cp" data-position="right" data-display="push" data-theme="a">
+
+            <p>đang cập nhật...</p>
+
+        </div>
+        <!-- / Hệ thống thông tin địa lý 3 chiều -->
+
+
+        <!--  Hệ thống thông tin địa lý 3 chiều -->
+
+        <div data-role="panel" id="3chieu" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Three- Dimentinal Geographic Information System</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học cung cấp lịch sử, mục đích, các khái niệm cơ sở của GIS 3D, cách phân nhóm cho mô hình dữ liệu 3D và mô tả chi tiết cho mỗi mô hình dữ liệu GIS 3D. Môn học cũng cung cấp cho sinh viên các ưu điểm, hạn chế của mô hình trên một số tiêu chí khi triển khai vào các bài toán thực tiễn.</p>
+
+        </div>
+        <!-- / Hệ thống thông tin địa lý 3 chiều -->
+
+
+        <!--   Tin-Sinh học -->
+
+        <div data-role="panel" id="tinsinh" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: BioInformatics</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Tin sinh học là một lĩnh vực khoa học sử dụng các công nghệ của các ngành: toán học ứng dụng, tin học, thống kê, khoa học máy tính, trí tuệ nhân tạo, hóa học và hóa sinh để giải quyết các vấn đề sinh học.</p>
+            <p>Nội dung Tin sinh học bao gồm: Sinh học phân tử. Giới thiệu một số ngân hàng cơ sở dữ liệu sinh học trên Internet. Thuật toán giải một số bài toán cơ bản trong Tin sinh học. Xây dựng phần mềm Tin sinh học.</p>
+        </div>
+        <!-- /  Tin-Sinh học -->
+
+
+        <!--    Dữ liệu lớn -->
+
+        <div data-role="panel" id="dll" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh: Big data</h3>
+            <h3>Số tín chỉ: 4</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học giới thiệu tổng quan thế nào là dữ liệu lớn và những thách thức của dữ liệu lớn (khả năng phân tích, xử lý). Giới thiệu những kỹ thuật R statistics, Hadoop và Map reduce để trực quan hóa và phân tích dữ liệu lớn và tạo ra các mô hình thống kê.</p>
+        </div>
+        <!-- /  Dữ liệu lớn -->
+
+        <!--     Phân tích không gian -->
+
+        <div data-role="panel" id="dammay" data-position="right" data-display="push" data-theme="a">
+            <h3>Tên môn tiếng Anh:  Cloud Computing</h3>
+            <h3>Số tín chỉ: 3</h3>
+            <p>Tóm tắt nội dung:</p>
+            <p>Môn học trình bày các khái niệm cơ bản của điện toán đám mây như: khái niệm, mô hình triển khai, mô hình dịch vụ, đặc trưng của các dịch vụ điện toán đám mây, ảo hóa và các thách thức đối với điện toán đám mây; Nguyên lý hoạt động của ảo hóa; nguyên lý xử lý phân tán, minh họa trên một trong số công nghệ nền tảng đám mây.</p>
+            <p>Phân tích và lựa chọn mô hình dịch vụ điện toán đám mây phù hợp với nhu cầu của tổ chức, doanh nghiệp; Kỹ năng cài đặt một số thuật toán xử lý phân tán đơn giản trên một trong số các công nghệ nền tảng đám mây.</p>
+        </div>
+        <!-- /  Phân tích không gian -->
+
+    </div>
+
+</body>
+
+</html>
